@@ -26,8 +26,6 @@ import Button from 'primevue/button';
 
 </script>
 
- 
-
 <style scoped>
 * {
   font-family: "Roboto", sans-serif;
@@ -62,7 +60,6 @@ import Button from 'primevue/button';
   width: 50%;
   height: 100%;
   float: right;
- 
 }
 .d1 {
   width: 500px;
