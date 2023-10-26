@@ -53,5 +53,26 @@ const items = ref([
   backdrop-filter: blur(5px) !important;
   z-index: 22;
 }
+
+@media (min-width: 320px) and (max-width: 576px){
+  .card{
+    width: 100%;
+    height: auto;
+  }
+}
+@media (min-width: 576px) and (max-width: 768px){
+  .card{
+    width: 100%;
+    height: auto;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px){
+  .card{
+    width: 100%;
+    height: auto;
+  }
+}
+
+ 
  
 </style>

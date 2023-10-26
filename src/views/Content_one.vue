@@ -1,11 +1,11 @@
 <template>
   <!-- First div -->
-  <div class="diva">
+  <div class="diva x-d-block sm-d-block">
     <div class="div1">
       <p class="p text-black">Hello</p>
       <h1 class="h1 text-black py-1">Sherzodov Firdavs</h1>
       <p class="p text-black">Web Developer</p>
-      <Button label="Info" severity="info" outlined  class='rounded-7'>
+      <Button label="Info" severity="info" outlined class="rounded-7">
         About Me
       </Button>
     </div>
@@ -18,12 +18,10 @@
   </div>
 </template>
 
-<script setup> 
+<script setup>
+import "primevue/resources/themes/lara-light-teal/theme.css";
 
-import 'primevue/resources/themes/lara-light-teal/theme.css'
-
-import Button from 'primevue/button';
-
+import Button from "primevue/button";
 </script>
 
 <style scoped>
@@ -31,13 +29,13 @@ import Button from 'primevue/button';
   font-family: "Roboto", sans-serif;
   color: white !important;
 }
- 
+
 .diva {
   width: 80%;
   height: 65vh;
   margin-left: 21vh;
   backdrop-filter: blur(5px);
-  border-radius:5%;
+  border-radius: 5%;
 }
 .div1 {
   width: 40%;
@@ -49,7 +47,7 @@ import Button from 'primevue/button';
 }
 .p {
   font-size: 1.5rem;
- text-shadow: white -10px -10px 30px;
+  text-shadow: white -10px -10px 30px;
 }
 .h1 {
   font-family: "Lato", sans-serif;
@@ -80,14 +78,79 @@ import Button from 'primevue/button';
   background-image: url(../../images/about.jpg);
   background-size: 100% 100%;
 }
-.d1:hover{
-    transform: rotate(0deg);
-    transition: 1s;
+.d1:hover {
+  transform: rotate(0deg);
+  transition: 1s;
 }
 .d2:hover {
   transform: rotate(0deg);
   transition: 1s;
   border: 3.8px solid rgb(255, 255, 255);
 }
-
+@media (min-width: 320px) and (max-width: 576px) {
+  .diva {
+    width: 100%;
+    height: 35vh;
+ 
+    backdrop-filter: blur(5px);
+    margin-left: 0;
+  }
+  .div1 {
+    width: 100%;
+    height: 200px;
+    margin-left:30px ;
+    height: auto;
+    margin-top: 2rem;
+   
+  }
+  .p {
+  font-size: 1rem;
+  text-shadow: white -10px -10px 30px;
+  padding-left: -10rem;
+}
+.h1 {
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
+  font-size: 2em;
+}
+.div2 {
+  width: 100%;
+  height: 200px;
+ 
+}
+.rounded-7{
+    width: 100px;
+    font-size: 0.84rem;
+    height: 40px;
+    border-radius: 8px !important;
+}
+.d1 {
+  width: 60%;
+  height: 110%;
+ margin-left: 9vh;
+  margin-top: 5%;
+  border-radius: 10% / 50%;
+  transform: rotate(-10deg) !important;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid white;
+}
+.d2 {
+    width: 100%;
+  height: 100%;
+  border: solid;
+  border-radius: 10% / 50%;
+  transform: rotate(20deg) !important;
+  background-image: url(../../images/about.jpg);
+  background-size: 100% 100%;
+}
+.d1:hover {
+  transform: rotate(0deg) !important;
+  transition: 1s;
+}
+.d2:hover {
+  transform: rotate(0deg) !important;
+  transition: 1s !important;
+  border: 3.8px solid rgb(255, 255, 255);
+}
+}
 </style>
