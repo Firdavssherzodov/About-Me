@@ -149,7 +149,7 @@ import Button from "primevue/button";
 }
 .d2:hover {
   transform: rotate(0deg) !important;
-  transition: 1s !important;
+  transition: 1s !important;            
   border: 3.8px solid rgb(255, 255, 255);
 }
 }
