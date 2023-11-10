@@ -78,11 +78,11 @@
     }
     .diva{
         width: 100%;
-        height: 400px !important;
+        height: 350px !important;
     }
     .conterner{
         width:100% !important;
-        height: 60% !important;
+        height: 30% !important;
     } 
 }
 @media (max-width:768px) {
