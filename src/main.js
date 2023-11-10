@@ -14,5 +14,5 @@ const app = createApp(App)
 app.use(router)
 app.mount('#app')
 app.use(PrimeVue);
-app.component('button', button);
-app.use(naive)
+ 
+ 
