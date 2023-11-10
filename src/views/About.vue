@@ -82,7 +82,7 @@
     }
     .conterner{
         width:100% !important;
-        height: 80% !important;
+        height: 60% !important;
     } 
 }
 @media (max-width:768px) {
