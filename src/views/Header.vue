@@ -1,32 +1,56 @@
 <template>
-  <div class="card relative z-2">
-    <Menubar :model="items">
-      <img alt="logo" src="/images/logo.svg" height="40" class="mr-2" />
-    </Menubar>
+  <div class="carda rounded-0 border-0">
+    <p class="p text-center pt-5 fw-bold text-white fs-7">Salom Men</p>
+    <h1 class="h11 text-center mt-2 text-white py-2">Firdavs Sherzodov</h1>
+    <p class="text-center fs-6 fw-bold p2 py-3">Frontend Dasturchisi</p>
+    <button
+      type="button"
+      class="btn btn-light p-3 m-auto "
+      style="color: #240145 ; "
+    >
+      Bog'lanish
+    </button>
   </div>
 </template>
 
-<script setup>
-
-</script>
+<script setup></script>
 
 <style scoped>
-.card {
-  width: 80%;
-  margin: auto;
-  backdrop-filter: blur(5px) !important;
-  z-index: 22;
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
 }
-
-@media (min-width: 320px) and (max-width: 576px){
-  .card{
+.carda {
+  width: 100%;
+  height: 300px;
   background-color: #240145;
 }
+.h11 {
+  font-family: "Courier", monospace sans-serif !important;
+  font-size: 2.5rem;
 }
-@media (min-width: 576px) and (max-width: 768px){
-  .card{
-    width: 100%;
-    height: auto;
+.btn {
+  width: 130px;
+ display: block ;
+}
+ 
+@media screen and (max-width: 380px) {
+  .h11 {
+    font-size: 2rem;
+  }
+  .btn {
+    width: 100px;
+    height: 40px;
+    font-size: 0.73rem;
+    padding: 0 !important;
+  }
+  .p2 {
+    font-size: 1.9rem;
+    padding-top: 20px;
+  }
+  .p {
+    font-size: 0.9rem;
   }
 }
 </style>
