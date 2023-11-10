@@ -59,20 +59,20 @@
 .contact {
   margin-top: 30vh;
 }
-@media screen and (max-width:380px) {
+@media(max-width:380px) {
     .contact,.py-1{
         display: none;
     }
     .diva{
         width: 100%;
-        height: 400px;
+        height: 400px !important;
     }
     .conterner{
-        width:100% !important;
-        height: 60% !important;
+        width:50% !important;
+        height: 20% !important;
     }
 }
-@media screen and (max-width:576px) {
+@media(max-width:576px) {
     .contact,.py-1{
         display: none;
     }
@@ -85,7 +85,7 @@
         height: 80% !important;
     } 
 }
-@media screen and (max-width:768px) {
+@media (max-width:768px) {
     .contact,.py-1{
         display: none;
     }
@@ -98,7 +98,7 @@
         height: 90% !important; 
     } 
 }
-@media screen and (max-width:992px) {
+@media(max-width:992px) {
     .contact,.py-1{
         display: none;
     }
