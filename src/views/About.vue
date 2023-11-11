@@ -19,7 +19,7 @@
         
       </span>
       <span class="s1">
-        <i class="fa-regular fa-handshake fs-5"></i>
+        <i class="fa-regular fa-handshake fs-5" style="color: #8c8989"></i>
       </span>
       <span class="s1">
         <i class="fa-regular fa-address-card fs-5 " style="color: #8c8989;"></i>
@@ -133,7 +133,7 @@
   width: 75% !important;
   height: 60px;
   left: 12% !important;
-  top: 95vh;
+  top: 91vh;
   bottom: 30px;
 }
   
