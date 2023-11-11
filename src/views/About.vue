@@ -5,11 +5,24 @@
         <i class="fa-brands fa-telegram fs-5 p-4" style="color: #ffffff"></i>
         <i class="fa-brands fa-instagram fs-5 p-4" style="color: #ffffff"></i>
         <i class="fa-brands fa-facebook fs-5 p-4" style="color: #ffffff"></i>
-        <i class="fa-brands fa-youtube fs-5  p-4" style="color: #ffffff"></i>
-        
+        <i class="fa-brands fa-youtube fs-5 p-4" style="color: #ffffff"></i>
       </div>
       <div class="conterner m-auto"></div>
       <p class="py-1">Scroll Down</p>
+    </div>
+    <div class="information">
+      <span class="s1">
+        <i class="gg-home" style="color: #8c8989"></i>
+      </span>
+      <span class="s1">
+        <i class="fa-light fa-user fs-3"></i>
+      </span>
+      <span class="s1">
+        <i class="gg-home" style="color: #8c8989"></i>
+      </span>
+      <span class="s1">
+        <i class="gg-home" style="color: #8c8989"></i>
+      </span>
     </div>
   </div>
 </template>
@@ -22,14 +35,41 @@
   height: 800px;
   background-color: #240145;
 }
+.information {
+  margin: auto !important;
+  width: 350px;
+  height: 70px;
+  transition: 2s;
+  position: fixed;
+  left: 40.5%;
+  bottom: 40px;
+  border: 1px solid white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center !important;
+  border-radius: 40px;
+  backdrop-filter: blur(10px) !important;
+}
+
+.s1:active {
+  background-color: #ffffff;
+}
+.s1 {
+  z-index: 22;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
 .bigbox {
- 
   width: 70%;
   height: 100%;
   margin: auto;
   display: flex;
   align-items: center !important;
-  justify-content: space-between     !important;
+  justify-content: space-between !important;
 }
 .conterner {
   border-top-right-radius: 50%;
@@ -59,71 +99,123 @@
 .contact {
   margin-top: 30vh;
 }
-@media(max-width:380px) {
-    .contact,.py-1{
-        display: none;
-    }
-    .diva{
-        width: 100%;
-        height: 350px !important;
-    }
-    .conterner{
-        width:50% !important;
-        height: 60% !important;
-    }
+@media (max-width: 380px) {
+.information {
+  width: 100%;
+  height: 60px;
+  left: 0.1%;
+  bottom: 20px;
 }
-@media(max-width:576px) {
-    .contact,.py-1{
-        display: none;
-    }
-    .diva{
-        width: 100%;
-        height: 350px !important;
-    }
-    .conterner{
-        width:100% !important;
-        height: 30% !important;
-    } 
+  
+  
+  .contact,
+  .py-1 {
+    display: none;
+  }
+  .diva {
+    width: 100%;
+    height: 350px !important;
+  }
+  .bigbox {
+    width: 90%;
+    height: 100%;
+  }
+  .conterner {
+    width: 50% !important;
+    height: 60% !important;
+  }
 }
-@media (max-width:768px) {
-    .contact,.py-1{
-        display: none;
-    }
-    .diva{
-        width: 100%;
-        height: 500px;
-    }
-    .conterner{
-        width:95% !important;
-        height: 90% !important; 
-    } 
+@media (max-width: 576px) {
+  .information {
+  width: 80%;
+  height: 60px;
+  left: 10%;
+  bottom: 20px;
 }
-@media(max-width:992px) {
-    .contact,.py-1{
-        display: none;
-    }
-    .diva{
-        width: 100%;
-        height: 550px;
-    }
-    .conterner{
-        width:55%;
-        height: 85%;
-    } 
+  
+  
+  .contact,
+  .py-1 {
+    display: none;
+  }
+  .diva {
+    width: 100%;
+    height: 400px !important;
+  }
+  .bigbox {
+    width: 80%;
+    height: 100%;
+  }
+  .conterner {
+    width: 100% !important;
+    height: 50% !important;
+  }
 }
-@media screen and (max-width:1200px) {
-    .contact,.py-1{
-        display: none;
-    }
-    .diva{
-        width: 100%;
-        height: 600px;
-    }
-    .conterner{
-        width:60%;
-        height: 90%;
-    } 
+@media (max-width: 768px) {
+  .information {
+  width: 70%;
+  height: 60px;
+  left: 15%;
+  bottom: 40px;
 }
-
-
+  
+  .contact,
+  .py-1 {
+    display: none;
+  }
+  .diva {
+    width: 100%;
+    height: 500px;
+  }
+  .bigbox {
+    width: 80%;
+    height: 100%;
+  }
+  .conterner {
+    width: 95% !important;
+    height: 90% !important;
+  }
+}
+@media (max-width: 992px) {
+  .information {
+  width: 40%;
+  height: 60px;
+  left: 30%;
+  bottom: 50px;
+}
+  
+  .contact,
+  .py-1 {
+    display: none;
+  }
+  .diva {
+    width: 100%;
+    height: 550px;
+  }
+  .conterner {
+    width: 55%;
+    height: 85%;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .information {
+  width: 35%;
+  height: 60px;
+  left: 32%;
+  bottom: 70px !important;
+}
+  
+  .contact,
+  .py-1 {
+    display: none;
+  }
+  .diva {
+    width: 100%;
+    height: 600px;
+  }
+  .conterner {
+    width: 60%;
+    height: 90%;
+  }
+}
 </style>
