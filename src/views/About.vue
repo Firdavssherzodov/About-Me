@@ -127,9 +127,9 @@
 }
 @media (max-width: 576px) {
   .information {
-  width: 80%;
+  width: 80% !important;
   height: 60px;
-  left: 10%;
+  left: 37px !important;
   bottom: 20px;
 }
   
