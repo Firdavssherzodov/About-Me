@@ -114,19 +114,19 @@
   padding: 0 !important;
 }
 /* Responsive 380px  */
-@media (max-width: 380px) {
+@media (max-width: 405px) {
   .section_about {
-    display: flex;
+    /* display: flex;
     justify-content: space-evenly;
-    flex-wrap: wrap;
-    display: block;
+    flex-wrap: wrap; */
+    display: block !important;
     width: 87%;
     height: auto;
     margin: auto;
   }
   .img_bg {
-    width: 90%;
-    height: 250px;
+    width: 90% !important;
+    height: 300px !important;
     border-radius: 20px;
     border: 0.1px solid white;
     background-image: url(../../images/about.us.jpg);
@@ -136,23 +136,23 @@
     margin: 2.5vh auto;
   }
   .section_one {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    display: inline-block;
+  flex-wrap: wrap;
+    display: inline-block !important;
     width: 100%;
     height: auto;
+    margin-top: -1vh !important;
   }
   .d1 {
-    width: 50%;
-    display: block;
-    flex-wrap: wrap;
-    margin: 3vh auto;
+    width: 50% !important;
+    display: block !important;
+    margin: 3vh auto !important;
   }
   .t1 {
     font-size: 0.8rem;
-    padding: -30% 20% !important;
-    margin: auto;
+position: relative;
+left: -10%;
+    padding-top: 10%;
+    /* margin: auto !important; */
   }
   .p1 {
     width: 100%;
@@ -161,7 +161,7 @@
   }
   .diva {
     width: 100%;
-    height: 1400px;
+    height: 1400px !important;
     background-color: #240145;
   }
   .btn {
@@ -169,11 +169,11 @@
     height: 45px;
     font-size: 0.73rem;
     padding: 0 !important;
-    margin: auto 12vh !important;
+    margin: auto 10vh !important;
   }
 }
 /* Responsive 576px  */
-@media (max-width: 576px) {
+/* @media (max-width: 576px) {
   .section_about {
     display: flex;
     justify-content: space-evenly;
@@ -364,5 +364,5 @@
   .fa-solid {
     font-size: 1.5rem !important;
   }
-}
+} 
 </style>
