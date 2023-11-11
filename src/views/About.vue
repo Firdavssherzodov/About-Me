@@ -12,16 +12,17 @@
     </div>
     <div class="information">
       <span class="s1">
-        <i class="gg-home" style="color: #8c8989"></i>
+        <i class="gg-home fs-5" style="color: #8c8989"></i>
       </span>
       <span class="s1">
-        <i class="fa-light fa-user fs-3"></i>
+        <i class="fa-regular fa-user fs-5" style="color: #8c8989" ></i>
+        
       </span>
       <span class="s1">
-        <i class="gg-home" style="color: #8c8989"></i>
+        <i class="fa-regular fa-handshake fs-5"></i>
       </span>
       <span class="s1">
-        <i class="gg-home" style="color: #8c8989"></i>
+        <i class="fa-regular fa-address-card fs-5 " style="color: #8c8989;"></i>
       </span>
     </div>
   </div>
@@ -130,8 +131,8 @@
   width: 75% !important;
   height: 60px;
   left: 12% !important;
-  top: 90vh;
-  bottom: 20px;
+  top: 95vh;
+  bottom: 30px;
 }
   
   
