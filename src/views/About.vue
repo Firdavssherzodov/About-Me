@@ -2,7 +2,7 @@
   <div class="diva">
     <div class="bigbox">
       <div class="contact">
-   <a href="https://t.me/@Firdavs_571"><i class="fa-brands fa-telegram fs-5 p-4" style="color: #ffffff"></i></a> 
+   <a href="https://t.me/@Firdavss_571"><i class="fa-brands fa-telegram fs-5 p-4" style="color: #ffffff"></i></a> 
    <a href="http://instagarm.com/firdavs_637"> <i class="fa-brands fa-instagram fs-5 p-4" style="color: #ffffff"></i></a> 
     <a href=""><i class="fa-brands fa-facebook fs-5 p-4" style="color: #ffffff"></i></a> 
       <a href=""><i class="fa-brands fa-youtube fs-5 p-4" style="color: #ffffff"></i></a> 
@@ -12,16 +12,16 @@
     </div>
     <div class="information">
       <span class="s1">
-        <i class="gg-home fs-5" style="color: #8c8989"></i>
+    <router-link to="/"> <i class="gg-home fs-5" style="color: #8c8989" ></i></router-link>
       </span>
-      <span class="s1">
+      <span class="s2">
         <i class="fa-regular fa-user fs-5" style="color: #8c8989" ></i>
         
       </span>
-      <span class="s1">
+      <span class="s3">
         <i class="fa-regular fa-handshake fs-5" style="color: #8c8989"></i>
       </span>
-      <span class="s1">
+      <span class="s4">
         <i class="fa-regular fa-address-card fs-5 " style="color: #8c8989;"></i>
       </span>
     </div>
@@ -37,6 +37,7 @@
   background-color: #240145;
 }
 .information {
+
   backdrop-filter: blur(15px) !important;
   display: block;
   margin: auto !important;
@@ -46,7 +47,7 @@
   position: fixed;
   left: 40.5%;
   bottom: 40px;
-  border: 1px solid white;
+  border: 0.1px solid ;
   display: flex;
   justify-content: space-around;
   align-items: center !important;
@@ -54,7 +55,7 @@
 
 }
 
-.s1:active {
+.s1 {
   background-color: #ffffff;
 }
 .s1 {
