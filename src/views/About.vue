@@ -2,10 +2,10 @@
   <div class="diva">
     <div class="bigbox">
       <div class="contact">
-        <i class="fa-brands fa-telegram fs-5 p-4" style="color: #ffffff"></i>
-        <i class="fa-brands fa-instagram fs-5 p-4" style="color: #ffffff"></i>
-        <i class="fa-brands fa-facebook fs-5 p-4" style="color: #ffffff"></i>
-        <i class="fa-brands fa-youtube fs-5 p-4" style="color: #ffffff"></i>
+   <a href="https://t.me/@Firdavs_571"><i class="fa-brands fa-telegram fs-5 p-4" style="color: #ffffff"></i></a> 
+   <a href="http://instagarm.com/firdavs_637"> <i class="fa-brands fa-instagram fs-5 p-4" style="color: #ffffff"></i></a> 
+    <a href=""><i class="fa-brands fa-facebook fs-5 p-4" style="color: #ffffff"></i></a> 
+      <a href=""><i class="fa-brands fa-youtube fs-5 p-4" style="color: #ffffff"></i></a> 
       </div>
       <div class="conterner m-auto"></div>
       <p class="py-1">Scroll Down</p>
@@ -33,10 +33,12 @@
 <style scoped>
 .diva {
   width: 100%;
-  height: 800px;
+  height: 700px;
   background-color: #240145;
 }
 .information {
+  backdrop-filter: blur(15px) !important;
+  display: block;
   margin: auto !important;
   width: 350px;
   height: 70px;
@@ -49,7 +51,7 @@
   justify-content: space-around;
   align-items: center !important;
   border-radius: 40px;
-  backdrop-filter: blur(10px) !important;
+
 }
 
 .s1:active {

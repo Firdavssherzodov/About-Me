@@ -2,7 +2,7 @@
   <div class="carda rounded-0 border-0">
     <p class="p text-center pt-5 fw-bold text-white fs-7">Salom Men</p>
     <h1 class="h11 text-center mt-2 text-white py-2">Firdavs Sherzodov</h1>
-    <p class="text-center fs-6 fw-bold p2 py-3">Frontend Dasturchisi</p>
+    <p class="text-center fs-6 fw-bold p2 py-3" style="color: #8c8989;">Frontend Dasturchisi</p>
     <button
       type="button"
       class="btn btn-light p-3 m-auto "
