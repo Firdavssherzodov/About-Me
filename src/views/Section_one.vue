@@ -114,7 +114,7 @@
   padding: 0 !important;
 }
 /* Responsive 380px  */
-@media (max-width: 405px) {
+@media  (max-width: 390px) {
   .section_about {
     
     display: block !important;

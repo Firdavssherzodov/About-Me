@@ -12,23 +12,48 @@
     </div>
     <div class="information">
       <span class="s1">
-    <router-link to="/"> <i class="gg-home fs-5" style="color: #8c8989" ></i></router-link>
+    <i class="gg-home fs-5" style="color: #8c8989" @click="Home"></i>
       </span>
       <span class="s2">
-        <i class="fa-regular fa-user fs-5" style="color: #8c8989" ></i>
+        <i class="fa-regular fa-user fs-5" style="color: #8c8989" @click="User"></i>
         
       </span>
       <span class="s3">
-        <i class="fa-regular fa-handshake fs-5" style="color: #8c8989"></i>
+        <i class="fa-regular fa-handshake fs-5" style="color: #8c8989" @click="Friendly"></i>
       </span>
       <span class="s4">
-        <i class="fa-regular fa-address-card fs-5 " style="color: #8c8989;"></i>
+        <i class="fa-regular fa-address-card fs-5 " style="color: #8c8989;" @click="Contact"></i>
       </span>
     </div>
   </div>
 </template>
 
-<script setup></script>
+<script setup>
+function Home() {
+  document.querySelector('.s3').style.background ='none';
+  document.querySelector('.s4').style.background ='none';
+  document.querySelector('.s2').style.background ='none';
+  document.querySelector('.s1').style.background ='white';
+}
+function User() {
+  document.querySelector('.s3').style.background ='none';
+  document.querySelector('.s4').style.background ='none';
+  document.querySelector('.s1').style.background ='none';
+  document.querySelector('.s2').style.background ='white';
+}
+function Friendly() {
+  document.querySelector('.s1').style.background ='none';
+  document.querySelector('.s2').style.background ='none';
+  document.querySelector('.s4').style.background ='none';
+  document.querySelector('.s3').style.background ='white';
+}
+function  Contact() {
+  document.querySelector('.s1').style.background ='none';
+  document.querySelector('.s2').style.background ='none';
+  document.querySelector('.s4').style.background ='White';
+  document.querySelector('.s3').style.background ='none';
+}
+</script>
 
 <style scoped>
 .diva {
@@ -60,13 +85,45 @@
   background-color: #ffffff;
 }
 .s1 {
-  z-index: 22;
   border-radius: 50%;
   width: 50px;
   height: 50px;
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+.s2 {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.s3 {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.s4 {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.s1:hover{
+  background-color: #1c0135 ;
+}
+.s2:hover{
+  background-color: #1c0135 ;
+}
+.s3:hover{
+  background-color: #1c0135 ;
 }
 .bigbox {
   width: 70%;
