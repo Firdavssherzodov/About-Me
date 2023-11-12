@@ -59,7 +59,6 @@
   font-family: "Courier", monospace sans-serif !important;
 }
 .section_one {
-
   display: flex !important;
   flex-wrap: wrap;
   justify-content: space-around !important;
@@ -68,7 +67,7 @@
   height: auto;
 }
 .section_about {
-  display: flex ;
+  display: flex;
   justify-content: space-evenly;
   width: 87%;
   height: auto;
@@ -116,9 +115,7 @@
 /* Responsive 380px  */
 @media (max-width: 405px) {
   .section_about {
-    /* display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap; */
+    
     display: block !important;
     width: 87%;
     height: auto;
@@ -135,29 +132,38 @@
     transform: rotate(10deg);
     margin: 2.5vh auto;
   }
+  .img_bg:active{
+  transform: rotate(0deg) !important;
+  transition: 1s !important;
+}
+
   .section_one {
-  flex-wrap: wrap;
-    display: inline-block !important;
+    display: flex !important;
+    justify-content: space-around !important;
+    flex-wrap: wrap !important;
+    /* border: solid; */
+    /* display: inline-block !important; */
     width: 100%;
     height: auto;
-    margin-top: -1vh !important;
+    /* margin-top: -px !important; */
   }
   .d1 {
-    width: 50% !important;
-    display: block !important;
-    margin: 3vh auto !important;
+    width: 45% !important;
+    margin: 8px;
+    /* display: block !important; */
+    /* margin: 3vh auto !important; */
   }
   .t1 {
     font-size: 0.8rem;
-position: relative;
-left: -10%;
+    position: relative;
+    left: -10%;
     padding-top: 10%;
     /* margin: auto !important; */
   }
   .p1 {
     width: 100%;
     font-size: 1rem;
-    padding: 10px !important;
+    padding: 5px !important;
   }
   .diva {
     width: 100%;
@@ -169,11 +175,11 @@ left: -10%;
     height: 45px;
     font-size: 0.73rem;
     padding: 0 !important;
-    margin: auto 10vh !important;
+    margin: auto 11vh !important;
   }
 }
 /* Responsive 576px  */
-/* @media (max-width: 576px) {
+@media (max-width: 576px) {
   .section_about {
     display: flex;
     justify-content: space-evenly;
@@ -235,7 +241,7 @@ left: -10%;
     font-size: 1.5rem !important;
   }
 }
-/* Responsive 768px  */
+/* /* Responsive 768px  */
 @media (max-width: 768px) {
   .section_about {
     display: flex;
@@ -364,5 +370,5 @@ left: -10%;
   .fa-solid {
     font-size: 1.5rem !important;
   }
-} 
+}
 </style>
