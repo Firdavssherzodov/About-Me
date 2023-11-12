@@ -173,7 +173,7 @@
   }
   .btn {
     width: 100px;
-    height: 45px;
+    height: 50px;
     font-size: 0.73rem;
     padding: 0 !important;
     margin: auto 11vh !important;
