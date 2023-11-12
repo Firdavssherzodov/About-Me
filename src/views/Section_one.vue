@@ -114,7 +114,7 @@
   padding: 0 !important;
 }
 /* Responsive 380px  */
-@media  (max-width: 390px) {
+@media  (max-width: 380px) {
   .section_about {
     display: block !important;
     width: 87%;
