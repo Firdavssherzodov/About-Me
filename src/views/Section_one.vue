@@ -1,7 +1,7 @@
 <template>
   <div class="diva">
-    <p class="text-center fs-6 fw-bold p1" style="color: #8c8989">Ma'lumot</p>
-    <h1 class="text-center h11" style="color: white">Men Haqimda</h1>
+    <p class="text-center fs-6 fw-bold p1" style="color: #8c8989;font-family: Poppins,sans-serif;">Ma'lumot</p>
+    <h1 class="text-center h11" style="color: white; font-family: Poppins,sans-serif;">Men Haqimda</h1>
     <div class="section_about">
       <div class="img_bg"></div>
       <div class="section_one">
@@ -26,11 +26,8 @@
           ></i>
           <p class="text-white t1">Loyihalar 10+</p>
         </div>
-        <p class="p1 p-4 fw-bold" style="color: #8c8989">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim velit
-          quod iste sapiente, dolorem adipisci? Cum error deserunt voluptatum
-          quas adipisci hic veritatis vero numquam debitis, aliquid, non
-          reiciendis molestias!
+        <p class="p1 p-4 fw-bold" style="color: #8c8989; font-family: Poppins,sans-serif;">
+          Men Firdavs Sherzodov hozirda 17 yoshdaman axborot texnologiyalari qiziqishim sababli 2023-yil boshida IT sohasiga kirib kelganman va web dasturlash o'rganishni boshlaganman va hozir ham or'ganishni davom etirmoqdaman 5+ Real Loyihalar bilan ishlaganman. 
         </p>
         <button
           type="button"
@@ -115,6 +112,11 @@
 }
 /* Responsive 380px  */
 @media  (max-width: 385px) {
+ 
+  .diva {
+  width: 100% !important;
+  height: 500px !important;
+}
   .section_about {
     display: block !important;
     width: 87%;

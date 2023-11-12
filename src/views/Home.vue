@@ -1,8 +1,10 @@
 <template>
     <div>
 <HeaderVue/>
-<AboutVue/>
+<About/>
 <content1/>
+<content2/>
+
 
  
     </div>
@@ -10,8 +12,10 @@
 
 <script setup>
 import HeaderVue from './Header.vue'
-import AboutVue from './Abouts.vue'
+import About from '../views/abouts.vue'
 import content1 from '../views/Section_one.vue'
+import content2 from '../views/Section_two.vue'
+
  
  
 </script>

@@ -2,8 +2,8 @@
   <div class="diva">
     <div class="bigbox">
       <div class="contact">
-   <a href="https://t.me/@Firdavss_571"><i class="fa-brands fa-telegram fs-5 p-4" style="color: #ffffff"></i></a> 
-   <a href="http://instagarm.com/firdavs_637"> <i class="fa-brands fa-instagram fs-5 p-4" style="color: #ffffff"></i></a> 
+   <a href="https://t.me/Firdavss_571" target="_blank"><i class="fa-brands fa-telegram fs-5 p-4" style="color: #ffffff"></i></a> 
+   <a href="http://instagarm.com/firdavs_637" target="_blank"> <i class="fa-brands fa-instagram fs-5 p-4" style="color: #ffffff"></i></a> 
     <a href=""><i class="fa-brands fa-facebook fs-5 p-4" style="color: #ffffff"></i></a> 
       <a href=""><i class="fa-brands fa-youtube fs-5 p-4" style="color: #ffffff"></i></a> 
       </div>
