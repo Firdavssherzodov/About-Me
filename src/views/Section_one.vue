@@ -149,7 +149,7 @@
   }
   .d1 {
     width: 45% !important;
-    margin: 8px;
+    margin: 7.5px;
     /* display: block !important; */
     /* margin: 3vh auto !important; */
   }
