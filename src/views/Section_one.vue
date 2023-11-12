@@ -116,7 +116,6 @@
 /* Responsive 380px  */
 @media  (max-width: 390px) {
   .section_about {
-    
     display: block !important;
     width: 87%;
     height: auto;
