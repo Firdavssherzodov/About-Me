@@ -74,6 +74,7 @@
   margin: auto;
 }
 .img_bg {
+  z-index: 11;
   width: 25%;
   height: 500px;
   border-radius: 20px;

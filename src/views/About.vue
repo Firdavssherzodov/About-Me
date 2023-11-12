@@ -52,6 +52,7 @@
   justify-content: space-around;
   align-items: center !important;
   border-radius: 40px;
+  z-index: 33 !important;
 
 }
 
