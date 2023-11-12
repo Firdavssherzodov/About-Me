@@ -9,8 +9,8 @@
 </template>
 
 <script setup>
-import HeaderVue from './Header.vue';
-import AboutVue from './About.vue';
+import HeaderVue from './Header.vue'
+import AboutVue from './Abouts.vue'
 import content1 from '../views/Section_one.vue'
  
  

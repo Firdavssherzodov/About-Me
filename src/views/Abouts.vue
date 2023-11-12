@@ -12,17 +12,17 @@
     </div>
     <div class="information">
       <span class="s1">
-    <i class="gg-home fs-5" style="color: #8c8989" @click="Home"></i>
+    <i class="gg-home fs-6" style="color: #8c8989" @click="Home"></i>
       </span>
       <span class="s2">
-        <i class="fa-regular fa-user fs-5" style="color: #8c8989" @click="User"></i>
+        <i class="fa-regular fa-user fs-6" style="color: #8c8989" @click="User"></i>
         
       </span>
       <span class="s3">
-        <i class="fa-regular fa-handshake fs-5" style="color: #8c8989" @click="Friendly"></i>
+        <i class="fa-regular fa-handshake fs-6" style="color: #8c8989" @click="Friendly"></i>
       </span>
       <span class="s4">
-        <i class="fa-regular fa-address-card fs-5 " style="color: #8c8989;" @click="Contact"></i>
+        <i class="fa-regular fa-address-card fs-6 " style="color: #8c8989;" @click="Contact"></i>
       </span>
     </div>
   </div>
@@ -117,13 +117,13 @@ function  Contact() {
   align-items: center;
 }
 .s1:hover{
-  background-color: #1c0135 ;
+  background-color: #1c0135;
 }
 .s2:hover{
-  background-color: #1c0135 ;
+  background-color: #1c0135;
 }
 .s3:hover{
-  background-color: #1c0135 ;
+  background-color: #1c0135;
 }
 .bigbox {
   width: 70%;
