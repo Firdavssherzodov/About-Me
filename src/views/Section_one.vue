@@ -237,7 +237,6 @@
   }
   .btn {
     width: 130px;
-
     display: block;
   }
   .fa-solid {
@@ -314,9 +313,6 @@
 /* Responsive 992px  */
 @media (max-width: 992px) {
   .section_about {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
     display: block;
     width: 83%;
     height: auto;
@@ -367,7 +363,6 @@
   }
   .btn {
     width: 130px;
-
     display: block;
   }
   .fa-solid {
