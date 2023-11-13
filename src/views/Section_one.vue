@@ -1,7 +1,17 @@
 <template>
   <div class="diva">
-    <p class="text-center fs-6 fw-bold p1" style="color: #8c8989;font-family: Poppins,sans-serif;">Ma'lumot</p>
-    <h1 class="text-center h11" style="color: white; font-family: Poppins,sans-serif;">Men Haqimda</h1>
+    <p
+      class="text-center fs-6 fw-bold p1"
+      style="color: #8c8989; font-family: Poppins, sans-serif"
+    >
+      Ma'lumot
+    </p>
+    <h1
+      class="text-center h11"
+      style="color: white; font-family: Poppins, sans-serif"
+    >
+      Men Haqimda
+    </h1>
     <div class="section_about">
       <div class="img_bg"></div>
       <div class="section_one">
@@ -14,35 +24,40 @@
         </div>
         <div class="d1">
           <i
-            class="fa-solid fa-user-group fs-4"
+            class="fa-solid fa-user-group fs-4 py-5"
             style="color: #ffffff; padding: 30% 40%"
           ></i>
           <p class="text-white t1">Mijozlar 10+</p>
         </div>
         <div class="d1">
           <i
-            class="fa-solid fa-list-check fs-3"
+            class="fa-solid fa-list-check fs-3 py-5"
             style="color: #ffffff; padding: 30% 40%"
           ></i>
           <p class="text-white t1">Loyihalar 10+</p>
         </div>
-        <p class="p1 p-4 fw-bold" style="color: #8c8989; font-family: Poppins,sans-serif;">
-          Men Firdavs Sherzodov hozirda 17 yoshdaman axborot texnologiyalari qiziqishim sababli 2023-yil boshida IT sohasiga kirib kelganman va web dasturlash o'rganishni boshlaganman va hozir ham or'ganishni davom etirmoqdaman 5+ Real Loyihalar bilan ishlaganman. 
+        <p
+          class="p1 p-4 fw-bold"
+          style="color: #8c8989; font-family: Poppins, sans-serif"
+        >
+          Men Firdavs Sherzodov hozirda 17 yoshdaman axborot texnologiyalari
+          qiziqishim sababli 2023-yil boshida IT sohasiga kirib kelganman va web
+          dasturlash o'rganishni boshlaganman va hozir ham or'ganishni davom
+          etirmoqdaman 5+ Real Loyihalar bilan ishlaganman.
         </p>
         <button
           type="button"
           class="btn btn-light p-3 m-auto"
-          style="color: #240145">
-          Bog'lanish 
+          style="color: #240145"
+        >
+          Bog'lanish
         </button>
       </div>
     </div>
   </div>
 </template>
 
-<script setup>
-
-</script>
+<script setup></script>
 
 <style scoped>
 .diva {
@@ -112,12 +127,11 @@
   padding: 0 !important;
 }
 /* Responsive 380px  */
-@media  (max-width: 385px) {
- 
+@media (max-width: 385px) {
   .diva {
-  width: 100% !important;
-  height: 500px !important;
-}
+    width: 100% !important;
+    height: 500px !important;
+  }
   .section_about {
     display: block !important;
     width: 87%;
@@ -135,33 +149,45 @@
     transform: rotate(10deg);
     margin: 2.5vh auto;
   }
-  .img_bg:active{
-  transform: rotate(0deg) !important;
-  transition: 1s !important;
-}
+  .img_bg:active {
+    transform: rotate(0deg) !important;
+    transition: 1s !important;
+  }
 
-  .section_one {
+  /* .section_one {
     display: flex !important;
     justify-content: space-around !important;
     flex-wrap: wrap !important;
     /* border: solid; */
     /* display: inline-block !important; */
+   
+    /* margin-top: -px !important; */
+  /* } */  
+  .section_one {
+    display: flex !important;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
     width: 100%;
     height: auto;
-    /* margin-top: -px !important; */
+    margin: 8vh auto;
   }
   .d1 {
-    width: 45% !important;
-    margin: 7.5px;
-    /* display: block !important; */
-    /* margin: 3vh auto !important; */
+    width: 35%;
+ 
+    display: block;
+ 
   }
+
+  .fa-solid {
+    font-size: 1.5rem !important;
+    padding-bottom: 50px !important;
+  } 
   .t1 {
-    font-size: 0.8rem;
-    position: relative;
-    left: -10%;
-    padding-top: 10%;
-    /* margin: auto !important; */
+    padding: 0 !important;
+    font-size: 0.7rem !important;
+    display: block;
+    text-align: center !important;
   }
   .p1 {
     width: 100%;
@@ -204,27 +230,26 @@
     margin: 2.5vh auto;
   }
   .section_one {
-    display: flex;
+    display: flex !important;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
     width: 100%;
     height: auto;
-    margin: 5vh auto;
+    margin: 8vh auto;
   }
   .d1 {
-    width: 30%;
-    display: inline-block;
+    width: 35%;
+    display: block;
   }
 
   .t1 {
-    font-size: 0.8rem;
-    width: 100% !important;
-    padding-left: 20px !important;
-    position: relative;
-    top: -10% !important ;
-    margin: auto;
+    padding: 0;
+    display: block !important;
+    text-align: center !important;
+    font-size: 0.8rem ;
   }
+ 
   .p1 {
     width: 100%;
     font-size: 1rem;
@@ -241,10 +266,11 @@
   }
   .fa-solid {
     font-size: 1.5rem !important;
+    padding-bottom: 50px;
   }
 }
 /* /* Responsive 768px  */
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .section_about {
     display: flex;
     justify-content: space-evenly;
@@ -303,10 +329,11 @@
     font-size: 0.8rem;
     padding: 0 !important;
     margin: auto 15vh !important; */
-    display: block;
-  }
-  .fa-solid {
+/* display: block;
+  } */
+/* .fa-solid {
     font-size: 1.5rem !important;
+    pa
   }
 }
 
@@ -320,7 +347,7 @@
   }
   .img_bg {
     width: 50%;
-    height: 350px;
+    height: 45vh !important;
     border-radius: 20px;
     border: 0.1px solid white;
     background-image: url(../../images/about.us.jpg);
@@ -340,16 +367,14 @@
   }
   .d1 {
     width: 30%;
-    display: inline-block;
+    display: block;
   }
 
   .t1 {
+    padding: 0 !important;
     font-size: 0.8rem;
-    width: 100% !important;
-    padding-left: 60px !important;
-    position: relative;
-    top: -30% !important ;
-    margin: auto;
+    display: block;
+    text-align: center !important;
   }
   .p1 {
     width: 100%;
@@ -367,6 +392,31 @@
   }
   .fa-solid {
     font-size: 1.5rem !important;
+    padding-bottom: 50px !important;
+  }
+}
+@media (max-width:1200px) {
+  .fa-solid {
+    font-size: 1.5rem !important;
+    padding-bottom: 50px !important;
+  } 
+  .t1 {
+    padding: 0 !important;
+    font-size: 0.8rem;
+    display: block;
+    text-align: center !important;
+  }
+}
+@media (max-width:1400px) {
+  .fa-solid {
+    font-size: 1.5rem !important;
+    padding-bottom: 50px !important;
+  } 
+  .t1 {
+    padding: 0 !important;
+    font-size: 0.8rem;
+    display: block;
+    text-align: center !important;
   }
 }
 </style>
