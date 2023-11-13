@@ -39,18 +39,18 @@
           class="text-center py-5 fw-bold xs-py-4 sm-py-3 hh6"
           style="color: white; font-family: Poppins, sans-serif"
         >
-          Backend Tajriba
+          Dasturiy Tajriba
         </h6>
         <div class="text-white d1 d2">
           <ul>
-            <li class="py-4">Node JS</li>
-       
-            <li class="py-4">PHP</li>
+            <li>GitHub</li>
+            <li>Figma</li>
+            <li>PrimeVue</li>
           </ul>
 
           <ul>
-            <li class="py-4">MongoDB</li>
-            <li class="py-4">MySQL</li>
+            <li class="py-4">NPM</li>
+            <li class="py-4">NAIVEU</li>
           </ul>
         </div>
       </div>
@@ -99,13 +99,13 @@ ul li {
   padding: 10px;
   padding-bottom: 15px;
 }
-ul:nth-child(2){
-  list-style-type: circle ;
+ul:nth-child(2) {
+  list-style-type: circle;
 }
-.py-4{
+/* .py-4 {
   padding-bottom: 25px !important;
-}
- 
+} */
+
 /* Responsive 385 */
 @media (max-width: 385px) {
   .diva {
@@ -118,28 +118,23 @@ ul:nth-child(2){
     width: 100% !important;
     display: block !important;
   }
-  .div1{
-width: 80%;
-margin: auto ;
-margin-bottom: 2vh;
+  .div1 {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 2vh;
   }
   .d1 {
- 
-  padding-bottom: 15%;
-}
-ul li {
-  font-weight: 400;
-  font-size: 0.9rem;
-  padding: 5px;
-  padding-bottom: 10px;
-}
-h6{
-    padding: 2.0rem !important;
-    
-}
-.hh6{
-  padding-bottom: 15px !important;
-}
+    padding-bottom: 15%;
+  }
+  ul li {
+    font-weight: 400;
+    font-size: 0.9rem;
+    padding: 5px;
+    padding-bottom: 10px;
+  }
+  h6 {
+    padding: 2rem !important;
+  }
 }
 /* Responsive 576 */
 @media (max-width: 576px) {
@@ -150,32 +145,30 @@ h6{
     font-size: 1.1rem !important;
   }
   .Section {
- 
     width: 100% !important;
     display: block !important;
   }
-  .div1{
-width: 80%;
-margin: auto ;
-margin-bottom: 2vh;
+  .div1 {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 2vh;
   }
   .d1 {
- 
-  padding-bottom: 13%;
-}
-ul li {
-  font-weight: 500;
-  font-size: 1.0.5rem;
-  padding: 5px;
-  padding-bottom: 10px;
-}
-h6{
+    padding-bottom: 13%;
+  }
+  ul li {
+    font-weight: 500;
+    font-size: 1.5rem;
+    padding: 5px;
+    padding-bottom: 10px;
+  }
+  h6 {
     font-size: 1.2rem;
     padding: 2.5rem !important;
-}
-.d2 ul li{
-padding-bottom: 15px !important;
-}
+  }
+  .d2 ul li {
+    padding-bottom: 15px !important;
+  }
 }
 /* Responsive 768 */
 @media (max-width: 768px) {
@@ -186,32 +179,30 @@ padding-bottom: 15px !important;
     font-size: 1.1rem !important;
   }
   .Section {
- 
     width: 100% !important;
     display: block !important;
   }
-  .div1{
-width: 80%;
-margin: auto ;
-margin-bottom: 2vh;
+  .div1 {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 2vh;
   }
   .d1 {
- 
-  padding-bottom: 10%;
-}
-ul li {
-  font-weight: 500;
-  font-size: 1.1rem;
-  padding: 5px;
-  padding-bottom: 10px;
-}
-h6{
+    padding-bottom: 10%;
+  }
+  ul li {
+    font-weight: 500;
+    font-size: 1.1rem;
+    padding: 5px;
+    padding-bottom: 10px;
+  }
+  h6 {
     font-size: 1.2rem;
     padding: 2.5rem !important;
-}
-.d2 ul li{
-padding-bottom: 8px !important;
-}
+  }
+  .d2 ul li {
+    padding-bottom: 8px !important;
+  }
 }
 /* Responsive 992 */
 @media (max-width: 992px) {
@@ -222,31 +213,29 @@ padding-bottom: 8px !important;
     font-size: 1.1rem !important;
   }
   .Section {
- 
     width: 100% !important;
     display: block !important;
   }
-  .div1{
-width: 80%;
-margin: auto ;
-margin-bottom: 2vh;
+  .div1 {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 2vh;
   }
   .d1 {
- 
-  padding-bottom: 10%;
-}
-ul li {
-  font-weight: 500;
-  font-size: 1.1rem;
-  padding: 5px;
-  padding-bottom: 10px;
-}
-h6{
+    padding-bottom: 10%;
+  }
+  ul li {
+    font-weight: 500;
+    font-size: 1.1rem;
+    padding: 5px;
+    padding-bottom: 10px;
+  }
+  h6 {
     font-size: 1.2rem;
     padding: 2.5rem !important;
-}
-.d2 ul li{
-padding-bottom: 8px !important;
-}
+  }
+  .d2 ul li {
+    padding-bottom: 8px !important;
+  }
 }
 </style>
