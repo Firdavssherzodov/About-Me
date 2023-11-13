@@ -115,7 +115,6 @@ ul:nth-child(2){
     font-size: 1rem !important;
   }
   .Section {
- 
     width: 100% !important;
     display: block !important;
   }
