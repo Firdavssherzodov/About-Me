@@ -32,8 +32,7 @@
         <button
           type="button"
           class="btn btn-light p-3 m-auto"
-          style="color: #240145"
-        >
+          style="color: #240145">
           Bog'lanish
         </button>
       </div>
