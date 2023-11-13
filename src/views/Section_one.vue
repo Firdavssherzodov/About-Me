@@ -40,10 +40,10 @@
           class="p1 p-4 fw-bold"
           style="color: #8c8989; font-family: Poppins, sans-serif"
         >
-          Men Firdavs Sherzodov hozirda 17 yoshdaman axborot texnologiyalari
-          qiziqishim sababli 2023-yil boshida IT sohasiga kirib kelganman va web
-          dasturlash o'rganishni boshlaganman va hozir ham or'ganishni davom
-          etirmoqdaman 5+ Real Loyihalar bilan ishlaganman.
+          Men Firdavs Sherzodov hozirda 17 yoshdaman axborot texnologiyalariga
+          qiziqishim sababli 2023-yildan boshlab IT sohasiga kirib kelganman va
+          web dasturlashni o'rganishni boshlaganman va hozir ham or'ganishni
+          davom etirmoqdaman 5+ Real Loyihalar bilan ishlaganman.
         </p>
         <button
           type="button"
@@ -130,7 +130,7 @@
 @media (max-width: 385px) {
   .diva {
     width: 100% !important;
-    height: 500px !important;
+    height: auto;
   }
   .section_about {
     display: block !important;
@@ -171,7 +171,7 @@
   .fa-solid {
     font-size: 1.5rem !important;
     padding-bottom: 50px !important;
-  } 
+  }
   .t1 {
     padding: 0 !important;
     font-size: 0.7rem !important;
@@ -179,15 +179,12 @@
     text-align: center !important;
   }
   .p1 {
-    width: 100%;
+    text-align: center;
+    width: 100% !important;
     font-size: 1rem;
     padding: 5px !important;
   }
-  .diva {
-    width: 100%;
-    height: 1400px !important;
-    background-color: #240145;
-  }
+
   .btn {
     width: 100px;
     height: 50px;
@@ -236,10 +233,11 @@
     padding: 0;
     display: block !important;
     text-align: center !important;
-    font-size: 0.8rem ;
+    font-size: 0.8rem;
   }
- 
+
   .p1 {
+    text-align: center;
     width: 100%;
     font-size: 1rem;
     padding: 15px !important;
@@ -366,6 +364,7 @@
     text-align: center !important;
   }
   .p1 {
+    text-align: center;
     width: 100%;
     font-size: 1rem;
     padding: 15px !important;
@@ -384,11 +383,11 @@
     padding-bottom: 50px !important;
   }
 }
-@media (max-width:1200px) {
+@media (max-width: 1200px) {
   .fa-solid {
     font-size: 1.5rem !important;
     padding-bottom: 50px !important;
-  } 
+  }
   .t1 {
     padding: 0 !important;
     font-size: 0.8rem;
@@ -396,11 +395,11 @@
     text-align: center !important;
   }
 }
-@media (max-width:1400px) {
+@media (max-width: 1400px) {
   .fa-solid {
     font-size: 1.5rem !important;
     padding-bottom: 50px !important;
-  } 
+  }
   .t1 {
     padding: 0 !important;
     font-size: 0.8rem;
