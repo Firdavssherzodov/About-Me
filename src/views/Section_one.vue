@@ -33,7 +33,7 @@
           type="button"
           class="btn btn-light p-3 m-auto"
           style="color: #240145">
-          Bog'lanish
+          Bog'lanish 
         </button>
       </div>
     </div>
