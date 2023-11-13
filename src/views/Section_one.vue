@@ -154,15 +154,6 @@
     transition: 1s !important;
   }
 
-  /* .section_one {
-    display: flex !important;
-    justify-content: space-around !important;
-    flex-wrap: wrap !important;
-    /* border: solid; */
-    /* display: inline-block !important; */
-   
-    /* margin-top: -px !important; */
-  /* } */  
   .section_one {
     display: flex !important;
     justify-content: space-around;
@@ -174,9 +165,7 @@
   }
   .d1 {
     width: 35%;
- 
     display: block;
- 
   }
 
   .fa-solid {
