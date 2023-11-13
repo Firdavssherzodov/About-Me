@@ -39,7 +39,7 @@
           class="text-center py-5 fw-bold xs-py-4 sm-py-3 hh6"
           style="color: white; font-family: Poppins, sans-serif"
         >
-          Dasturiy Tajriba
+          Bazaviy Tajriba
         </h6>
         <div class="text-white d1 d2">
           <ul>
