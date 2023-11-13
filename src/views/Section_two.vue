@@ -12,15 +12,15 @@
     >
       Mening Tajribam
     </h1>
-    <div class="Section">
-      <div class="div1">
+    <div class="Section row">
+      <div class="div1 col-6">
         <h6
           class="text-center py-5 fw-bold"
           style="color: white; font-family: Poppins, sans-serif"
         >
           Frontend Tajriba
         </h6>
-        <div class="text-white d1">
+        <div class="text-white d1 xs-py-4 sm-py-3">
           <ul>
             <li>HTML</li>
             <li>SASS</li>
@@ -34,9 +34,9 @@
           </ul>
         </div>
       </div>
-      <div class="div1">
+      <div class="div1 col-6 xs-col-12 sm-col-12">
         <h6
-          class="text-center py-5 fw-bold"
+          class="text-center py-5 fw-bold xs-py-4 sm-py-3 hh6"
           style="color: white; font-family: Poppins, sans-serif"
         >
           Backend Tajriba
@@ -99,11 +99,17 @@ ul li {
   padding: 10px;
   padding-bottom: 15px;
 }
+ul:nth-child(2){
+  list-style-type: circle ;
+}
+.py-4{
+  padding-bottom: 25px !important;
+}
  
 /* Responsive 385 */
 @media (max-width: 385px) {
   .diva {
-    padding-top: 5vh;
+    padding-top: 3vh;
   }
   .hh1 {
     font-size: 1rem !important;
@@ -129,7 +135,11 @@ ul li {
   padding-bottom: 10px;
 }
 h6{
-    padding: 2.5rem !important;
+    padding: 2.0rem !important;
+    
+}
+.hh6{
+  padding-bottom: 15px !important;
 }
 }
 /* Responsive 576 */
