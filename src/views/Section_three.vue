@@ -95,8 +95,11 @@ ul{
   }
   .div{
     width: 80%;
-    height: 40% !important;
+    height: 42% !important;
     margin:3vh auto ;
+  }
+  ul li{
+padding: 3px !important;
   }
   .section{
     width: 100%;
@@ -105,7 +108,7 @@ ul{
   }
   .d1{
     width: 100%;
-    height: 20%;
+    height: 20% ;
   }
 
 }
