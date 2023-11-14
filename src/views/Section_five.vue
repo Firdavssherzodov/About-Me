@@ -15,15 +15,17 @@
     <div class="div">
       <!-- div1 -->
       <div class="div1">
+      <a href="https://frontendhtml1234@gmail.com">
         <div class="d1">
           <i
             class="fa-regular fa-envelope fs-3 py-3"
             style="color: #fff; margin: auto"
           ></i>
           <h6 class="text-center text-white py-1">Email</h6>
-          <p class="text-center text-white p-1">frontendhtml@gmail.com</p>
+          <p class="text-center text-white p-1">frontendhtml1234@gmail.com</p>
           <p class="text-center text-white py-1 pb-3">Xabar Yuborish</p>
         </div>
+      </a>
         <a href="https://t.me/Firdavss_571">
           <div class="d1">
             <i
@@ -49,12 +51,13 @@
       </div>
       <!-- div2 -->
       <div id="div2">
-        <input type="text" placeholder="Ismingizni" class="px-5 fs-8" />
+        <form >
+        <input type="text" placeholder="Ismingizni" class="px-5 fs-8 py-4" />
         <br />
-        <input type="email" placeholder="Elektron Pochta" class="px-5 fs-8" />
+        <input type="email" placeholder="Elektron Pochta" class="px-5 fs-8 py-4" />
         <br />
 
-        <input type="text" placeholder="Xabar" class="px-5 fs-8 Xabar" />
+        <input type="text" placeholder="Xabar" class="px-5 fs-8 Xabar py-5" />
         <br />
 
         <button
@@ -64,6 +67,7 @@
         >
           Xabar Yuborish
         </button>
+      </form>
       </div>
     </div>
   </div>
@@ -111,13 +115,14 @@
   display: flex;
   justify-content: space-evenly;
 }
-input {
+input{
   width: 90%;
   height: 15%;
   margin: 2vh;
   background-color: #4e0492;
   border: 2px solid rgb(0, 101, 135) !important;
   border-radius: 10px;
+  border: none;
   color: #fff !important;
 }
 .Xabar {

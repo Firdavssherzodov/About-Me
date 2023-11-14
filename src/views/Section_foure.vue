@@ -17,6 +17,7 @@
       <!-- 1 -->
       <div class="div">
         <img src="../../images/site2.png" alt="" />
+        <a href="https://onlymagazin.netlify.app/">
         <button
           type="button"
           class="btn btn-light p-3 my-3 mx-3"
@@ -24,10 +25,13 @@
         >
           Ko'rish
         </button>
+      </a>
       </div>
       <!-- 2 -->
+      
       <div class="div">
         <img src="../../images/site1.png" alt="" />
+        <a href="https://turon-it-academy.netlify.app/" target="_blank">
         <button
           type="button"
           class="btn btn-light p-3 my-3 mx-3"
@@ -35,6 +39,7 @@
         >
           Ko'rish
         </button>
+      </a>
       </div>
       <!-- 3 -->
       <div class="div">
@@ -72,6 +77,7 @@
       <!-- 6 -->
       <div class="div">
         <img src="../../images/site6.png" alt="" />
+        <a href="https://firdavs-uz.netlify.app/">
         <button
           type="button"
           class="btn btn-light p-3 my-3 mx-3"
@@ -79,6 +85,7 @@
         >
           Ko'rish
         </button>
+      </a>
       </div>
     </div>
   </div>
