@@ -98,13 +98,16 @@ ul li {
   font-weight: 500;
   padding: 10px;
   padding-bottom: 15px;
+  font-family: 'Roboto Condensed', sans-serif;
 }
-ul:nth-child(2) {
+ul{
   list-style-type: circle;
 }
-/* .py-4 {
-  padding-bottom: 25px !important;
+
+/* ul:nth-child(2) {
+  list-style-type: circle;
 } */
+
 
 /* Responsive 385 */
 @media (max-width: 385px) {

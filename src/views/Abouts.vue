@@ -125,6 +125,9 @@ function  Contact() {
 .s3:hover{
   background-color: #1c0135;
 }
+.s4:hover{
+  background-color: #1c0135;
+}
 .bigbox {
   width: 70%;
   height: 100%;
