@@ -132,6 +132,9 @@ padding: 3px !important;
     width: 100%;
     height: 20% !important;
   }
+  ul{
+    font-size: 0.9rem !important;
+  }
 }
 
 /* Responsive 768px */
