@@ -14,9 +14,9 @@
     </h1>
 
     <div class="section">
-        <!-- 1 -->
+      <!-- 1 -->
       <div class="div">
-        <img src="../../images/photo_me.jpg" alt="" />
+        <img src="../../images/site2.png" alt="" />
         <button
           type="button"
           class="btn btn-light p-3 my-3 mx-3"
@@ -27,7 +27,7 @@
       </div>
       <!-- 2 -->
       <div class="div">
-        <img src="../../images/photo_me.jpg" alt="" />
+        <img src="../../images/site1.png" alt="" />
         <button
           type="button"
           class="btn btn-light p-3 my-3 mx-3"
@@ -38,7 +38,7 @@
       </div>
       <!-- 3 -->
       <div class="div">
-        <img src="../../images/photo_me.jpg" alt="" />
+        <img src="../../images/site3.png" alt="" />
         <button
           type="button"
           class="btn btn-light p-3 my-3 mx-3"
@@ -49,7 +49,7 @@
       </div>
       <!-- 4 -->
       <div class="div">
-        <img src="../../images/photo_me.jpg" alt="" />
+        <img src="../../images/site4.png" alt="" />
         <button
           type="button"
           class="btn btn-light p-3 my-3 mx-3"
@@ -60,7 +60,7 @@
       </div>
       <!-- 5 -->
       <div class="div">
-        <img src="../../images/photo_me.jpg" alt="" />
+        <img src="../../images/site5.png" alt="" />
         <button
           type="button"
           class="btn btn-light p-3 my-3 mx-3"
@@ -71,7 +71,7 @@
       </div>
       <!-- 6 -->
       <div class="div">
-        <img src="../../images/photo_me.jpg" alt="" />
+        <img src="../../images/site6.png" alt="" />
         <button
           type="button"
           class="btn btn-light p-3 my-3 mx-3"
@@ -121,54 +121,54 @@
   margin: 1vh;
 }
 .div:hover {
-    transition: 0.5s;
+  transition: 0.5s;
   background-color: #240145;
   border: 1px solid rgb(0, 101, 135);
 }
 /* Responsive 385px */
 @media (max-width: 385px) {
-    .diva{
-        margin-top: -26vh;
-        height: auto;
-    }
-    .section{
-        width: 100%;
-        display: block;
-    }
-    .div{
-        width: 80%;
-        margin:2vh auto;
-    }
+  .diva {
+    margin-top: -26vh;
+    height: auto;
+  }
+  .section {
+    width: 100%;
+    display: block;
+  }
+  .div {
+    width: 80%;
+    margin: 2vh auto;
+  }
 }
 /* Responive 576px */
 @media (max-width: 576px) {
-    .diva{
-        margin-top: -30vh;
-        height: auto;
-    }
-    .section{
-        width: 100%;
-        display: block;
-    }
-    .div{
-        width: 80%;
-        margin:2vh auto;
-    }
+  .diva {
+    margin-top: -30vh;
+    height: auto;
+  }
+  .section {
+    width: 100%;
+    display: block;
+  }
+  .div {
+    width: 80%;
+    margin: 2vh auto;
+  }
 }
 /* Responsive 768px */
-@media (max-width:768px) {
-    .diva{
-        margin-top: -30vh;
-        height: auto;
-    }
-    .section{
-        width: 100%;
-        display: block;
-    }
-    .div{
-        width: 80%;
-        margin:2vh auto;
-
-    }
+@media (max-width: 768px) {
+  .diva {
+    margin-top: -30vh;
+    height: auto;
+    padding-bottom: 11vh;
+  }
+  .section {
+    width: 100%;
+    display: block;
+  }
+  .div {
+    width: 80%;
+    margin: 2vh auto;
+  }
 }
 </style>

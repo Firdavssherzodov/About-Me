@@ -206,7 +206,7 @@
   }
   .img_bg {
     width: 90%;
-    height: 250px;
+    height: 300px !important;
     border-radius: 20px;
     border: 0.1px solid white;
     background-image: url(../../images/photo_me.jpg);
