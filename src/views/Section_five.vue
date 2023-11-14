@@ -118,8 +118,6 @@ input {
   background-color: #4e0492;
   border: 2px solid rgb(0, 101, 135) !important;
   border-radius: 10px;
-  border: none;
-  font-family: "Times New Roman", Times, serif;
   color: #fff !important;
 }
 .Xabar {
