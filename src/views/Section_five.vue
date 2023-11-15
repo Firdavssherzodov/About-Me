@@ -67,7 +67,7 @@
         >
           Xabar Yuborish
         </button>
-        <button class="btn btn-light p-2 px-4 my-3 mx-3">
+        <button class="btn btn-light py-2 px-4 my-3 mx-3">
         <i class="fa-solid fa-headset fs-2" style="color: #240145 ;"></i>
       </button>
       </form>
