@@ -62,12 +62,12 @@
 
         <button
           type="submit"
-          class="btn btn-light p-3 my-3 mx-3"
+          class="btn btn-light p-3 my-3 mx-4 "
           style="color: #240145"
         >
           Xabar Yuborish
         </button>
-        <button class="btn btn-light py-2 px-4 my-3 mx-3">
+        <button class="btn btn-light py-2 px-4 my-3 mx-2">
         <i class="fa-solid fa-headset fs-2" style="color: #240145 ;"></i>
       </button>
       </form>

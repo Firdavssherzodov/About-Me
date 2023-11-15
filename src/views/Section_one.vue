@@ -210,7 +210,7 @@
     height: 300px !important;
     border-radius: 20px;
     border: 0.1px solid white;
-    background-image: url(../../images/photo_me.jpg);
+    background-image: url(../../images/about.home2.jpg);
     background-position: center;
     background-size: cover;
     transform: rotate(10deg);
@@ -338,7 +338,7 @@
     height: 45vh !important;
     border-radius: 20px;
     border: 0.1px solid white;
-    background-image: url(../../images/photo_me.jpg);
+    background-image: url(../../images/about.home2.jpg);
     background-position: center;
     background-size: cover;
     transform: rotate(10deg);

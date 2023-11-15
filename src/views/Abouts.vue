@@ -143,7 +143,7 @@ function  Contact() {
   width: 30%;
   height: 55%;
   margin-top: -1px !important;
-  background-image: url(../../images/about.us.jpg);
+  background-image: url(../../images/photo_me.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: repeat;
