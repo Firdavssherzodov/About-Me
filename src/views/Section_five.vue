@@ -1,6 +1,6 @@
 <template>
   <div class="diva">
-    <p
+    <p id="contac"
       class="text-center fs-6 fw-bold p1 py-4"
       style="color: #8c8989; font-family: Poppins, sans-serif"
     >
@@ -67,6 +67,9 @@
         >
           Xabar Yuborish
         </button>
+        <button class="btn btn-light p-2 px-4 my-3 mx-3">
+        <i class="fa-solid fa-headset fs-2" style="color: #240145 ;"></i>
+      </button>
       </form>
       </div>
     </div>

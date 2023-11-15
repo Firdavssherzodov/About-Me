@@ -1,7 +1,7 @@
 <template>
-  <div class="diva">
+  <div class="diva" id="about">
     <p
-      class="text-center fs-6 fw-bold p1"
+      class="text-center fs-6 fw-bold p1 py-2"
       style="color: #8c8989; font-family: Poppins, sans-serif"
     >
       Ma'lumot
@@ -92,9 +92,10 @@
   height: 500px;
   border-radius: 20px;
   border: 0.1px solid white;
-  background-image: url(../../images/photo_me.jpg);
-  background-position: center;
-  object-fit: cover;
+  background-image: url(../../images/about.home2.jpg);
+  background-size: cover;
+  /* background-position: center; */
+  /* object-fit: cover; */
   transform: rotate(10deg);
 }
 .img_bg:hover {
@@ -143,7 +144,7 @@
     height: 300px !important;
     border-radius: 20px;
     border: 0.1px solid white;
-    background-image: url(../../images/about.us.jpg);
+    background-image: url(../../images/about.home2.jpg);
     background-position: center;
     background-size: cover;
     transform: rotate(10deg);

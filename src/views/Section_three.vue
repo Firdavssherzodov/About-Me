@@ -1,5 +1,5 @@
 <template>
-  <div class="diva">
+  <div class="diva" id="xizmat">
     <p
       class="text-center fs-6 fw-bold p1 pt-3"
       style="color: #8c8989; font-family: Poppins, sans-serif"

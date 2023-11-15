@@ -11,18 +11,19 @@
       <p class="py-1">Scroll Down</p>
     </div>
     <div class="information">
+      
       <span class="s1">
-    <i class="gg-home fs-6" style="color: #8c8989" @click="Home"></i>
+    <a href="#home" class="gg-home fs-6" style="color: #8c8989" @click="Home"></a>
       </span>
       <span class="s2">
-        <i class="fa-regular fa-user fs-6" style="color: #8c8989" @click="User"></i>
+        <a href="#contac" class="fa-regular fa-user fs-6" style="color: #8c8989" @click="User"></a>
         
       </span>
       <span class="s3">
-        <i class="fa-regular fa-handshake fs-6" style="color: #8c8989" @click="Friendly"></i>
+        <a href="#xizmat" class="fa-regular fa-handshake fs-6" style="color: #8c8989" @click="Friendly"></a>
       </span>
       <span class="s4">
-        <i class="fa-regular fa-address-card fs-6 " style="color: #8c8989;" @click="Contact"></i>
+        <a href="#about" class="fa-regular fa-address-card fs-6 " style="color: #8c8989;" @click="Contact"></a>
       </span>
     </div>
   </div>
@@ -142,11 +143,10 @@ function  Contact() {
   width: 30%;
   height: 55%;
   margin-top: -1px !important;
-
   background-image: url(../../images/about.us.jpg);
   background-position: center;
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
 }
 .py-1 {
   float: right;
