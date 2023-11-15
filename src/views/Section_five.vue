@@ -57,11 +57,11 @@
         <input type="email" placeholder="Elektron Pochta" class="px-5 fs-8 py-4" />
         <br />
 
-        <input type="text" placeholder="Xabar" class="px-5 fs-8 Xabar py-5" />
+        <input type="text" placeholder="Xabar"  class="px-5 fs-8 Xabar py-5" />
         <br />
 
         <button
-          type="button"
+          type="submit"
           class="btn btn-light p-3 my-3 mx-3"
           style="color: #240145"
         >
