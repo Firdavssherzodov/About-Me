@@ -2,12 +2,12 @@
   <div class="diva">
     <h1 class="text-center py-5" style="color: #240145">Firdavs Sherzodov</h1>
     <div class="div">
-      <a href="">Bosh sahifa</a>
-      <a href="">Men haqimda</a>
-      <a href="">Tajribam</a>
-      <a href="">Xizmatlarim</a>
-      <a href="">Portfolio</a>
-      <a href="">Bog'lanish</a>
+      <a href="#home">Bosh sahifa</a>
+      <a href="#about">Men haqimda</a>
+      <a href="#two">Tajribam</a>
+      <a href="#xizmat">Xizmatlarim</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#contac">Bog'lanish</a>
     </div>
     <div class="div2 py-5">
       <span>

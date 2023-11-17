@@ -67,7 +67,7 @@
         >
           Xabar Yuborish
         </button>
-        <button class="btn btn-light py-2 px-4 my-3 mx-2">
+        <button class="btn btn-light py-2 px-4 my-3 mx-2 BTN2">
         <i class="fa-solid fa-headset fs-2" style="color: #240145 ;"></i>
       </button>
       </form>
@@ -161,6 +161,9 @@ input{
     margin: auto;
     width: 90% !important;
   }
+  .BTN2{
+    padding-top: 15.5px !important;
+  }
 }
 /* Resposive 576px */
 @media (max-width: 576px) {
@@ -192,6 +195,9 @@ input{
     margin: auto;
     width: 90% !important;
   }
+  .BTN2{
+    padding-top: 15px !important;
+  }
 }
 /* Resposive 768px */
 @media (max-width: 768px) {
@@ -222,6 +228,9 @@ input{
   #div2 {
     margin: auto;
     width: 95% !important;
+  }
+  .BTN2{
+    padding-top: 11px !important;
   }
 }
 </style>
