@@ -39,9 +39,9 @@
           ></i> </a
       ></span>
     </div>
-    <p class="text-center pt-4 pb-2" style="color: #240145; font-size: 0.8rem">
+    <h1 class="text-center pt-4 pb-2" style="color: #240145; font-size: 0.8rem">
       © FirdavsSherzodov. All rights reserved.
-    </p>
+    </h1>
   </div>
 </template>
 
