@@ -1,14 +1,14 @@
 <template>
-  <div class="diva">
+  <footer class="diva">
     <h1 class="text-center py-5" style="color: #240145">Firdavs Sherzodov</h1>
-    <div class="div">
+    <footer class="div">
       <a href="#home">Bosh sahifa</a>
       <a href="#about">Men haqimda</a>
       <a href="#two">Tajribam</a>
       <a href="#xizmat">Xizmatlarim</a>
       <a href="#portfolio">Portfolio</a>
       <a href="#contac">Bog'lanish</a>
-    </div>
+    </footer>
     <div class="div2 py-5">
       <span>
         <a href="https://frontendhtml1234@gmail.com"
@@ -42,7 +42,7 @@
     <h1 class="text-center pt-4 pb-2" style="color: #240145; font-size: 0.8rem">
       © FirdavsSherzodov. All rights reserved.
     </h1>
-  </div>
+  </footer>
 </template>
 
 <script setup></script>

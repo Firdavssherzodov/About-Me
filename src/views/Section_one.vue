@@ -45,13 +45,15 @@
           web dasturlashni o'rganishni boshlaganman va hozir ham or'ganishni
           davom etirmoqdaman 5+ Real Loyihalar bilan ishlaganman.
         </p>
+        <a href="#contac">
         <button
           type="button"
           class="btn btn-light p-3 m-auto"
-          style="color: #240145"
+          style="color: #240145 !important"
         >
-          Bog'lanish
+        Bog'lanish
         </button>
+      </a>
       </div>
     </div>
   </div>
