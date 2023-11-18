@@ -162,7 +162,7 @@ input{
     width: 90% !important;
   }
   .BTN2{
-    padding-top: 15.5px !important;
+    padding-top: 16px !important;
   }
 }
 /* Resposive 576px */
