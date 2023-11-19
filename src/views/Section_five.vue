@@ -67,9 +67,10 @@
         >
           Xabar Yuborish
         </button>
-        <button class="btn btn-light py-2 px-4 my-3 mx-2 BTN2">
+    <router-link to="/chat">  <button class="btn btn-light py-2 px-4 my-3 mx-2 BTN2">
         <i class="fa-solid fa-headset fs-2" style="color: #240145 ;"></i>
       </button>
+    </router-link>  
       </form>
       </div>
     </div>
@@ -162,7 +163,7 @@ input{
     width: 90% !important;
   }
   .BTN2{
-    padding-top: 16px !important;
+    padding-top: 16px  !important;
   }
 }
 /* Resposive 576px */
