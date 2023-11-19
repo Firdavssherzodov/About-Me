@@ -120,6 +120,7 @@ img {
   .fa-paper-plane {
     top: 86% !important;
     left: 87% !important;
+    font-size: 1.7rem !important;
   }
 }
 /* Responsive 576px */
@@ -140,6 +141,11 @@ img {
     width: 100% !important;
     height: 8%;
     top: 92%;
+  }
+  .fa-paper-plane {
+    top: 86% !important;
+    left: 87% !important;
+    font-size: 1.7rem !important;
   }
 }
 </style>
