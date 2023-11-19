@@ -14,22 +14,46 @@
           <h1 class="px-3 py-4 fs-3 text-white">Firdavs</h1>
         </div>
       </div>
-   
-
-      <div class="d2">
+      <i
+        class="fa-regular fa-paper-plane fs-3"
+        style="
+          color: #ffffff;
+          position: fixed;
+          top: 88%;
+          left: 72%;
+          cursor: pointer;
+        "
+        @click="send"
+      ></i>
+      <form class="d2">
         <input
           type="text"
-          class="text-white"
+          class="input text-white"
           placeholder="Xabar Yuborish"
           autocomplete="off"
-          v-model="message"
         />
-      </div>
+      </form>
     </div>
   </div>
 </template>
 
-<script setup></script>
+<script setup>
+import { ref, onMounted } from "vue";
+let input = document.querySelector(".input");
+
+function send() {
+console.log(input.value);
+}
+
+// onMounted(()=>{
+//   if (message.value === ' ') {
+//   console.log('input clear');
+// }if (message.value !== ' ' ){
+// document.querySelector('.input').classList.add('fa-bounce');
+// }
+// })
+</script>
+<!-- fa-bounce -->
 
 <style scoped>
 .diva {
@@ -72,54 +96,50 @@ img {
   width: 65px;
   height: 65px;
 }
-.span1 {
-  padding-left: 10vh !important;
-  border-radius: 100px 10px / 120px;
-  background-color: white;
-  color: black;
-  border: 1px solid blue;
-  margin-top: 10vh !important;
-  z-index: 2 !important;
-}
+
 /* Responsive 385px */
 
-@media (max-width:385px) {
-  .div{
+@media (max-width: 385px) {
+  .div {
     width: 100%;
   }
-  .d1{
+  .d1 {
     width: 100%;
   }
-  img{
+  img {
     width: 50px;
     height: 50px;
     margin: 0px !important;
     margin-top: 10px !important;
   }
-  .d2{
+  .d2 {
     width: 100% !important;
     height: 8%;
-  top: 92%;
+    top: 92%;
+  }
+  .fa-paper-plane {
+    top: 86% !important;
+    left: 87% !important;
   }
 }
 /* Responsive 576px */
-@media (max-width:576px) {
-  .div{
+@media (max-width: 576px) {
+  .div {
     width: 100%;
   }
-  .d1{
+  .d1 {
     width: 100%;
   }
-  img{
+  img {
     width: 50px;
     height: 50px;
     margin: 0px !important;
     margin-top: 10px !important;
   }
-  .d2{
+  .d2 {
     width: 100% !important;
     height: 8%;
-  top: 92%;
+    top: 92%;
   }
 }
 </style>

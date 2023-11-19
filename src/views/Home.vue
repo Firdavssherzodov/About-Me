@@ -24,7 +24,21 @@ import content4 from '../views/Section_foure.vue'
 import content5 from '../views/Section_five.vue'
 import footer1 from '../views/Footer.vue'
  
- 
+import {onMounted } from 'vue'
+
+let xabar = 'Xabar Yuborish '
+onMounted(()=>{
+    
+
+    setTimeout(()=>{
+        alert(`Asalamu alekum va rohmatullohi va barakatuh
+Xush kelibsiz`);
+    },4000)})
+
+
+
+
+//  alert(`Dasturlash sohasida oid qiziqtirgan savolaringzini bemalol berishingiz munkin pastdagi ${xabar} yonidagi aloqa tugmasi bilan men bilan only chat orqali muloqot qilishingiz mumkin`)
 </script>
 
 <style scoped>
