@@ -39,19 +39,8 @@
 
 <script setup>
 import { ref, onMounted } from "vue";
-let input = document.querySelector(".input");
 
-function send() {
-console.log(input.value);
-}
 
-// onMounted(()=>{
-//   if (message.value === ' ') {
-//   console.log('input clear');
-// }if (message.value !== ' ' ){
-// document.querySelector('.input').classList.add('fa-bounce');
-// }
-// })
 </script>
 <!-- fa-bounce -->
 
