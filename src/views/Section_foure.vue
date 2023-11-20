@@ -146,6 +146,12 @@
     width: 80%;
     margin: 2vh auto;
   }
+  .btn{
+    font-size: 0.7rem;
+    padding: 0 !important;
+    width: 70px;
+    height: 40px;
+  }
 }
 /* Responive 576px */
 @media (max-width: 576px) {
@@ -160,6 +166,12 @@
   .div {
     width: 80%;
     margin: 2vh auto;
+  }
+  .btn{
+    font-size: 0.7rem;
+    padding: 0 !important;
+    width: 70px;
+    height: 40px;
   }
 }
 /* Responsive 768px */
