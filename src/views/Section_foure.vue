@@ -118,7 +118,7 @@
   display: block;
   margin: auto;
   padding: 10px;
-  border-radius: 2rem;
+  border-radius: 1.2rem;
 }
 .div {
   width: 30%;
