@@ -1,5 +1,5 @@
 <template>
-  <div class="diva" id="portfolio">
+  <div class="diva" id="portfolio" >
     <p
       class="text-center fs-6 fw-bold p1 py-4"
       style="color: #8c8989; font-family: Poppins, sans-serif"
@@ -13,9 +13,9 @@
       Portfolio
     </h1>
 
-    <div class="section">
+    <div class="section"  >
       <!-- 1 -->
-      <div class="div">
+      <div class="div" >
         <img src="../../images/site2.png" alt="" />
         <a href="https://onlymagazin.netlify.app/">
         <button
