@@ -33,7 +33,7 @@ onMounted(()=>{
     setTimeout(()=>{
         alert(`Asalamu alekum va rohmatullohi va barakatuh
 Xush kelibsiz`);
-    },2000)})
+    },3000)})
 
 
 

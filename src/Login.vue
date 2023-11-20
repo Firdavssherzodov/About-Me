@@ -2,11 +2,11 @@
   <div class="diva">
     <div class="div">
       <form class="py-3" @submit.prevent="Login">
-        <label for="username" class="text-white py-2">Name</label>
+        <label for="username" class="text-white py-2">Username</label>
         <br />
         <input type="text" id="username" v-model="username" />
         <br />
-        <label for="" class="text-white py-2">Familiya</label>
+        <label for="" class="text-white py-3">Password</label>
         <br />
         <input type="text" v-model="password" />
         <br />
@@ -85,9 +85,11 @@ input {
     .div{
         width: 100% !important  ;
         height: 400px;
+        padding: 5vh;
     }
+   
 }
-@media (max-width: 576px) {
+@media (max-width:576px) {
     .div{
         width: 100% !important  ;
         height: 400px;
