@@ -9,17 +9,24 @@
         <br />
         <label for="password" class="text-white py-3">Paroli</label>
         <br />
-        <input type="text" id="password" v-model="password" />
+        <input type="text" id="password" v-model="password" autocomplete="off"/>
         <br />
-        <br>
-        <!-- <Toast /> -->
-        <Button class="btn btn-primary my-4 px-5" type="submit">k i r i s h </Button>
+        <br />
+        <Button class="btn btn-primary my-4 px-5" type="submit"
+          >k i r i s h
+        </Button>
       </form>
     </div>
   </header>
+
+        <Toast class="text-danger"/>
+      
+
 </template>
 
 <script setup>
+import { useToast } from "primevue/usetoast";
+import Toast from 'primevue/toast';
 import axios from "axios";
 import { ref } from "vue";
 import { useRouter } from "vue-router";
@@ -27,8 +34,7 @@ let router = useRouter();
 let username = ref("mor_2314");
 let password = ref("83r5^_");
 function Login() {
-  axios
-    .post("https://fakestoreapi.com/auth/login", {
+  axios.post("https://fakestoreapi.com/auth/login", {
       username: username.value,
       password: password.value,
     })
@@ -38,17 +44,18 @@ function Login() {
         localStorage.setItem("token", res.data.token);
         router.push("/home");
       } else {
-        console.log(res.data);
+        showError();
       }
     });
 }
 
-// import { useToast } from "primevue/usetoast";
-// const toast = useToast();
 
-// const showError = () => {
-//     toast.add({ severity: 'error', summary: 'Error Message', detail: , life: 3000 });
-// };
+
+const toast = useToast();
+
+const showError = () => {
+    toast.add({ severity: 'error', summary: 'Error Message', detail:"username or password is incorrect", life: 3000 });
+};
 </script>
 
 <style scoped>
@@ -66,8 +73,7 @@ function Login() {
   margin: 20vh auto;
   border-radius: 1.2rem;
   padding: 10vh;
-
-} 
+}
 
 .btn {
   background-color: #240145;
@@ -87,26 +93,24 @@ input {
 }
 @media (max-width: 385px) {
   .div {
-    width: 100% ;
+    width: 100%;
     height: 400px !important;
     padding: 5vh;
-    margin:15vh auto;
+    margin: 15vh auto;
   }
 }
 @media (max-width: 576px) {
   .div {
     width: 100% !important;
     height: 500px;
-    margin:15vh auto;
-
+    margin: 15vh auto;
   }
 }
 @media (max-width: 768px) {
   .div {
     width: 70%;
     height: 500px;
-    margin:15vh auto;
-
+    margin: 15vh auto;
   }
 }
 </style>
