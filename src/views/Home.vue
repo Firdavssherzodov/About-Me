@@ -26,7 +26,6 @@ import footer1 from '../views/Footer.vue'
  
 import {onMounted } from 'vue'
 
-let xabar = 'Xabar Yuborish '
 onMounted(()=>{
     
 
