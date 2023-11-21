@@ -24,15 +24,15 @@ import content4 from '../views/Section_foure.vue'
 import content5 from '../views/Section_five.vue'
 import footer1 from '../views/Footer.vue'
  
-import {onMounted } from 'vue'
+// import {onMounted } from 'vue'
 
-onMounted(()=>{
+// onMounted(()=>{
     
 
-    setTimeout(()=>{
-        alert(`Asalamu alekum va rohmatullohi va barakatuh
-Xush kelibsiz`);
-    },3000)})
+//     setTimeout(()=>{
+//         alert(`Asalamu alekum va rohmatullohi va barakatuh
+// Xush kelibsiz`);
+//     },3000)})
 
 
 

@@ -1,5 +1,5 @@
 <template>
-  <div class="diva" id="about">
+  <section class="diva" id="about">
     <p
       class="text-center fs-6 fw-bold p1 py-2"
       style="color: #8c8989; font-family: Poppins, sans-serif"
@@ -56,7 +56,7 @@
       </a>
       </div>
     </div>
-  </div>
+  </section>
 </template>
 
 <script setup></script>

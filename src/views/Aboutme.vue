@@ -1,5 +1,5 @@
 <template>
-  <div class="diva">
+  <nav class="diva">
     <div class="bigbox">
       <div class="contact">
    <a href="https://t.me/Firdavss_571" target="_blank"><i class="fa-brands fa-telegram fs-5 p-4" style="color: #ffffff"></i></a> 
@@ -26,7 +26,7 @@
         <a href="#about" class="fa-regular fa-address-card fs-6 " style="color: #8c8989;" @click="Contact"></a>
       </span>
     </div>
-  </div>
+  </nav>
 </template>
 
 <script setup>

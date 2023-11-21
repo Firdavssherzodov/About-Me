@@ -1,5 +1,5 @@
 <template>
-  <div class="carda rounded-0 border-0" id="home">
+  <header class="carda rounded-0 border-0" id="home">
     <p
       class="p text-center pt-5 fw-bold text-white fs-7"
       style="font-family: Poppins, sans-serif"
@@ -20,7 +20,7 @@
     >
       Bog'lanish
     </a>
-  </div>
+  </header>
 </template>
 
 <script setup></script>

@@ -1,5 +1,5 @@
 <template>
-  <div class="diva">
+  <section class="diva">
     <p id="contac"
       class="text-center fs-6 fw-bold p1 py-4"
       style="color: #8c8989; font-family: Poppins, sans-serif"
@@ -74,7 +74,7 @@
       </form>
       </div>
     </div>
-  </div>
+  </section>
 </template>
 
 <script setup></script>
