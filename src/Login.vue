@@ -44,7 +44,7 @@ function Login() {
         localStorage.setItem("token", res.data.token);
         router.push("/home");
       } else {
-        showError();
+showError()
       }
     });
 }
