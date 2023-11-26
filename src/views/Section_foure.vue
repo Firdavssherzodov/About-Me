@@ -17,7 +17,7 @@
       <!-- 1 -->
       <div class="div" >
         <img src="../../images/site2.png" alt="" />
-        <a href="https://onlymagazin.netlify.app/">
+        <a href="https://shoping-com.netlify.app/">
         <button
           type="button"
           class="btn btn-light p-3 my-3 mx-3"
