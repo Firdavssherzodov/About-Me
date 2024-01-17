@@ -4,21 +4,21 @@
       class="p text-center pt-5 fw-bold text-white fs-7"
       style="font-family: Poppins, sans-serif"
     >
-      Salom Men
+    Hello, I am
     </p>
     <h1 class="h11 text-center mt-2 text-white py-2">Firdavs Sherzodov</h1>
     <p
       class="text-center fs-6 fw-bold p2 py-3"
       style="color: #8c8989; font-family: Poppins, sans-serif"
     >
-      Frontend Dasturchisi
+    Frontend Developer
     </p>
     <a href="#contac"
       type="button"
       class="btn btn-light p-3 m-auto"
       style="color: #240145"
     >
-      Bog'lanish
+    Connection
     </a>
   </header>
 </template>

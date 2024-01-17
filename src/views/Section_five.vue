@@ -4,13 +4,13 @@
       class="text-center fs-6 fw-bold p1 py-4"
       style="color: #8c8989; font-family: Poppins, sans-serif"
     >
-      Aloqa uchun
+    For communication
     </p>
     <h1
       class="text-center pb-5 h11"
       style="color: white; font-size: 1.9rem; font-family: Poppins, sans-serif"
     >
-      Men Bilan Bog'laning
+    Contact Me
     </h1>
     <div class="div">
       <!-- div1 -->
@@ -23,7 +23,7 @@
           ></i>
           <h6 class="text-center text-white py-1">Email</h6>
           <p class="text-center text-white p-1">frontendhtml1234@gmail.com</p>
-          <p class="text-center text-white py-1 pb-3">Xabar Yuborish</p>
+          <p class="text-center text-white py-1 pb-3">Send message</p>
         </div>
       </a>
         <a href="https://t.me/Firdavss_571">
@@ -34,7 +34,7 @@
             ></i>
             <h6 class="text-center text-white py-1">Telgram</h6>
             <p class="text-center text-white p-1">Firdavs sherzodov</p>
-            <p class="text-center text-white py-1 pb-3">Xabar Yuborish</p>
+            <p class="text-center text-white py-1 pb-3">Send message</p>
           </div>
         </a>
         <a href="http://instagarm.com/firdavs_637">
@@ -45,19 +45,19 @@
             ></i>
             <h6 class="text-center text-white py-1">Instagram</h6>
             <p class="text-center text-white p-1">Firdavs sherzodov</p>
-            <p class="text-center text-white py-2 pb-3">Xabar Yuborish</p>
+            <p class="text-center text-white py-2 pb-3">Send message</p>
           </div>
         </a>
       </div>
       <!-- div2 -->
       <div id="div2">
         <form >
-        <input type="text" placeholder="Ismingizni" class="px-5 fs-8 py-4" />
+        <input type="text" placeholder="your name" class="px-5 fs-8 py-4" />
         <br />
-        <input type="email" placeholder="Elektron Pochta" class="px-5 fs-8 py-4" />
+        <input type="email" placeholder="Email" class="px-5 fs-8 py-4" />
         <br />
 
-        <input type="text" placeholder="Xabar"  class="px-5 fs-8 Xabar py-5" />
+        <input type="text" placeholder="message"  class="px-5 fs-8 Xabar py-5" />
         <br />
 
         <button
@@ -65,12 +65,12 @@
           class="btn btn-light p-3 my-3 mx-4 "
           style="color: #240145"
         >
-          Xabar Yuborish
+        Send message
         </button>
-    <router-link to="/chat">  <button class="btn btn-light py-2 px-4 my-3 mx-2 btn2">
+    <a href="#home">  <button class="btn btn-light py-2 px-4 my-3 mx-2 btn2">
         <i class="fa-solid fa-headset fs-2" style="color: #240145 ;"></i>
       </button>
-    </router-link>  
+    </a>  
       </form>
       </div>
     </div>

@@ -2,12 +2,12 @@
   <footer class="diva">
     <h1 class="text-center py-5" style="color: #240145">Firdavs Sherzodov</h1>
     <section class="div">
-      <a href="#home">Bosh sahifa</a>
-      <a href="#about">Men haqimda</a>
-      <a href="#two">Tajribam</a>
-      <a href="#xizmat">Xizmatlarim</a>
+      <a href="#home">Home</a>
+      <a href="#about">About Me</a>
+      <a href="#two">My experience</a>
+      <a href="#khizmat">My Services</a>
       <a href="#portfolio">Portfolio</a>
-      <a href="#contac">Bog'lanish</a>
+      <a href="#contac">Contact</a>
     </section>
     <div class="div2 py-5">
       <span>
@@ -40,7 +40,7 @@
       ></span>
     </div>
     <h1 class="text-center pt-4 pb-2" style="color: #240145; font-size: 0.8rem">
-      © FirdavsSherzodov. All rights reserved.
+      © Creator. All rights reserved.
     </h1>
   </footer>
 </template>

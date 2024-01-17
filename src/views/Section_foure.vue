@@ -1,10 +1,10 @@
 <template>
-  <section class="diva" id="portfolio" >
+  <section class="diva" id="portfolio">
     <p
       class="text-center fs-6 fw-bold p1 py-4"
       style="color: #8c8989; font-family: Poppins, sans-serif"
     >
-      Mening Oxirgi Ishlarim
+      My Recent Works
     </p>
     <h1
       class="text-center pb-5 h11"
@@ -13,33 +13,33 @@
       Portfolio
     </h1>
 
-    <div class="section"  >
+    <div class="section">
       <!-- 1 -->
-      <div class="div" >
+      <div class="div">
         <img src="../../images/site2.png" alt="" />
         <a href="https://shoping-com.netlify.app/">
-        <button
-          type="button"
-          class="btn btn-light p-3 my-3 mx-3"
-          style="color: #240145"
-        >
-          Ko'rish
-        </button>
-      </a>
+          <button
+            type="button"
+            class="btn btn-light p-3 my-3 mx-3"
+            style="color: #240145"
+          >
+            View
+          </button>
+        </a>
       </div>
       <!-- 2 -->
-      
+
       <div class="div">
         <img src="../../images/site1.png" alt="" />
         <a href="https://turon-it-academy.netlify.app/" target="_blank">
-        <button
-          type="button"
-          class="btn btn-light p-3 my-3 mx-3"
-          style="color: #240145"
-        >
-          Ko'rish
-        </button>
-      </a>
+          <button
+            type="button"
+            class="btn btn-light p-3 my-3 mx-3"
+            style="color: #240145"
+          >
+            View
+          </button>
+        </a>
       </div>
       <!-- 3 -->
       <div class="div">
@@ -49,7 +49,7 @@
           class="btn btn-light p-3 my-3 mx-3"
           style="color: #240145"
         >
-          Ko'rish
+          View
         </button>
       </div>
       <!-- 4 -->
@@ -60,7 +60,7 @@
           class="btn btn-light p-3 my-3 mx-3"
           style="color: #240145"
         >
-          Ko'rish
+          View
         </button>
       </div>
       <!-- 5 -->
@@ -71,21 +71,21 @@
           class="btn btn-light p-3 my-3 mx-3"
           style="color: #240145"
         >
-          Ko'rish
+          View
         </button>
       </div>
       <!-- 6 -->
       <div class="div">
         <img src="../../images/site6.png" alt="" />
         <a href="https://firdavs-uz.netlify.app/">
-        <button
-          type="button"
-          class="btn btn-light p-3 my-3 mx-3"
-          style="color: #240145"
-        >
-          Ko'rish
-        </button>
-      </a>
+          <button
+            type="button"
+            class="btn btn-light p-3 my-3 mx-3"
+            style="color: #240145"
+          >
+            View
+          </button>
+        </a>
       </div>
     </div>
   </section>
@@ -146,7 +146,7 @@
     width: 80%;
     margin: 2vh auto;
   }
-  .btn{
+  .btn {
     font-size: 0.7rem;
     padding: 0 !important;
     width: 70px;
@@ -167,7 +167,7 @@
     width: 80%;
     margin: 2vh auto;
   }
-  .btn{
+  .btn {
     font-size: 0.7rem;
     padding: 0 !important;
     width: 70px;

@@ -1,16 +1,16 @@
 <template>
   <div class="diva" id="two">
     <p
-      class="text-center fs-6 fw-bold p1 pt-5"
+      class="text-center fs-6 fw-bold p1 pt-5 pb-3"
       style="color: #8c8989; font-family: Poppins, sans-serif"
     >
-      Menda bor ko'nikmalar
+      The skills I have
     </p>
     <h1
       class="text-center pb-5 h11"
       style="color: white; font-size: 2rem; font-family: Poppins, sans-serif"
     >
-      Mening Tajribam
+      My Experience
     </h1>
     <div class="Section row">
       <div class="div1 col-6">
@@ -18,7 +18,7 @@
           class="text-center py-5 fw-bold"
           style="color: white; font-family: Poppins, sans-serif"
         >
-          Frontend Tajriba
+          Frontend Experience
         </h6>
         <div class="text-white d1 xs-py-4 sm-py-3">
           <ul>
@@ -30,7 +30,7 @@
           <ul>
             <li>CSS</li>
             <li>Bootstrap</li>
-            <li>Vue JS</li>
+            <li>TailwindCss</li>
           </ul>
         </div>
       </div>
@@ -39,18 +39,19 @@
           class="text-center py-5 fw-bold xs-py-4 sm-py-3 hh6"
           style="color: white; font-family: Poppins, sans-serif"
         >
-          Bazaviy Tajriba
+          Frameworks
         </h6>
         <div class="text-white d1 d2">
           <ul>
-            <li>GitHub</li>
-            <li>Figma</li>
+            <li>Vue 3</li>
             <li>PrimeVue</li>
+            <li>FlowbiteVue</li>
           </ul>
 
           <ul>
-            <li class="py-4">NPM</li>
-            <li class="py-4">NAIVEU</li>
+            <li>Vuetify</li>
+            <li>Element Plus</li>
+            <li>Chakra UI Vue</li>
           </ul>
         </div>
       </div>
@@ -98,16 +99,15 @@ ul li {
   font-weight: 500;
   padding: 10px;
   padding-bottom: 15px;
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
 }
-ul{
+ul {
   list-style-type: circle;
 }
 
 /* ul:nth-child(2) {
   list-style-type: circle;
 } */
-
 
 /* Responsive 385 */
 @media (max-width: 385px) {

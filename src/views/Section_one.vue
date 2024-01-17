@@ -4,13 +4,13 @@
       class="text-center fs-6 fw-bold p1 py-2"
       style="color: #8c8989; font-family: Poppins, sans-serif"
     >
-      Ma'lumot
+    Information
     </p>
     <h1
       class="text-center h11"
       style="color: white; font-family: Poppins, sans-serif"
     >
-      Men Haqimda
+    About me
     </h1>
     <div class="section_about">
       <div class="img_bg"></div>
@@ -20,40 +20,40 @@
             class="fa-solid fa-medal fs-3 py-5"
             style="color: #ffffff; padding: 30% 40%"
           ></i>
-          <p class="text-white t1">Tajriba 10+</p>
+          <p class="text-white t1">Experience 10+</p>
         </div>
         <div class="d1">
           <i
             class="fa-solid fa-user-group fs-4 py-5"
             style="color: #ffffff; padding: 30% 40%"
           ></i>
-          <p class="text-white t1">Mijozlar 10+</p>
+          <p class="text-white t1">Customers 10+</p>
         </div>
         <div class="d1">
           <i
             class="fa-solid fa-list-check fs-3 py-5"
             style="color: #ffffff; padding: 30% 40%"
           ></i>
-          <p class="text-white t1">Loyihalar 10+</p>
+          <p class="text-white t1">Projects 10+</p>
         </div>
         <p
           class="p1 p-4 fw-bold"
           style="color: #8c8989; font-family: Poppins, sans-serif"
         >
-          Men Firdavs Sherzodov hozirda 17 yoshdaman axborot texnologiyalariga
-          qiziqishim sababli 2023-yildan boshlab IT sohasiga kirib kelganman va
-          web dasturlashni o'rganishni boshlaganman va hozir ham or'ganishni
-          davom etirmoqdaman 5+ Real Loyihalar bilan ishlaganman.
+        I'm Firdavs Sherzadov, I'm 18 years old, majoring in information technology
+          I came to the IT field and
+          I managed to learn web programming and am still learning
+          working on 5+ Real Projects.
         </p>
         <a href="#contac">
-        <button
-          type="button"
-          class="btn btn-light p-3 m-auto"
-          style="color: #240145 !important"
-        >
-        Bog'lanish
-        </button>
-      </a>
+          <button
+            type="button"
+            class="btn btn-light p-3 m-auto"
+            style="color: #240145 !important"
+          >
+          Connection
+          </button>
+        </a>
       </div>
     </div>
   </section>
@@ -96,8 +96,7 @@
   border: 0.1px solid white;
   background-image: url(../../images/about.home2.jpg);
   background-size: cover;
-  /* background-position: center; */
-  /* object-fit: cover; */
+  background-position: center;
   transform: rotate(10deg);
 }
 .img_bg:hover {
@@ -120,7 +119,7 @@
   display: inline-block;
 }
 .t1 {
-  padding-left: 25% !important;
+  padding-left: 20% !important;
   margin-top: -30px;
 }
 .btn {
