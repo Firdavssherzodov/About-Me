@@ -4,13 +4,13 @@
       class="text-center fs-6 fw-bold p1 py-2"
       style="color: #8c8989; font-family: Poppins, sans-serif"
     >
-    Information
+      Information
     </p>
     <h1
       class="text-center h11"
       style="color: white; font-family: Poppins, sans-serif"
     >
-    About me
+      About me
     </h1>
     <div class="section_about">
       <div class="img_bg"></div>
@@ -40,10 +40,9 @@
           class="p1 p-4 fw-bold"
           style="color: #8c8989; font-family: Poppins, sans-serif"
         >
-        I'm Firdavs Sherzadov, I'm 18 years old, majoring in information technology
-          I came to the IT field and
-          I managed to learn web programming and am still learning
-          working on 5+ Real Projects.
+          I'm Firdavs Sherzadov, I'm 18 years old, majoring in information
+          technology I came to the IT field and I managed to learn web
+          programming and am still learning working on 5+ Real Projects.
         </p>
         <a href="#contac">
           <button
@@ -51,7 +50,7 @@
             class="btn btn-light p-3 m-auto"
             style="color: #240145 !important"
           >
-          Connection
+            Connection
           </button>
         </a>
       </div>

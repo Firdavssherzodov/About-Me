@@ -38,6 +38,13 @@
             style="color: #ffffff"
           ></i> </a
       ></span>
+      <span>
+        <a href="https://github.com/Firdavssherzodov">
+          <i
+            class="fa-brands fa-github fs-5 py-3"
+            style="color: #ffffff"
+          ></i> </a
+      ></span>
     </div>
     <h1 class="text-center pt-4 pb-2" style="color: #240145; font-size: 0.8rem">
       © Creator. All rights reserved.
@@ -72,7 +79,7 @@ a:hover {
   justify-content: space-evenly;
 }
 span {
-  width: 20%;
+  width: 17%;
   height: 15%;
   border-radius: 10px;
   background-color: #4e0492;
@@ -116,7 +123,7 @@ span:hover {
     margin: auto;
   }
   span {
-    width: 20%;
+    width: 17%;
     height: 70px;
   }
 
@@ -148,7 +155,7 @@ span:hover {
     margin: auto;
   }
   span {
-    width: 20%;
+    width: 18%;
     height: 70px;
   }
 
