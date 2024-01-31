@@ -18,14 +18,14 @@
           ></i> </a
       ></span>
       <span>
-        <a href="https://t.me/Firdavss_571">
+        <a href="https://t.me/Firdavss_571" target="_blank">
           <i
             class="fa-brands fa-telegram fs-5 py-3"
             style="color: #fcfcfc"
           ></i></a
       ></span>
       <span>
-        <a href="http://instagarm.com/firdavs_637">
+        <a href="http://instagarm.com/firdavs_637" target="_blank">
           <i
             class="fa-brands fa-instagram fs-5 py-3"
             style="color: #ffffff"
@@ -39,7 +39,7 @@
           ></i> </a
       ></span>
       <span>
-        <a href="https://github.com/Firdavssherzodov">
+        <a href="https://github.com/Firdavssherzodov" target="_blank">
           <i
             class="fa-brands fa-github fs-5 py-3"
             style="color: #ffffff"
