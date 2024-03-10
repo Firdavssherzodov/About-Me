@@ -1,22 +1,16 @@
- 
-
-import { createApp } from 'vue'
-import App from './App.vue'
-import router from './router'
-import PrimeVue from 'primevue/config';
-import ToastService from 'primevue/toastservice';
-import StyleClass from 'primevue/styleclass';
-                
+import { createApp } from "vue";
+import App from "./App.vue";
+import router from "./router";
+import PrimeVue from "primevue/config";
+import ToastService from "primevue/toastservice";
+import StyleClass from "primevue/styleclass";
 
 // import 'vfonts/Lato.css'
 // import 'vfonts/FiraCode.css'
-const app = createApp(App)
+const app = createApp(App);
 
-app.use(router)
-app.mount('#app')
+app.use(router);
+app.mount("#app");
 app.use(PrimeVue);
-app.use(ToastService)
-app.directive('styleclass', StyleClass);
-
- 
- 
+app.use(ToastService);
+app.directive("styleclass", StyleClass);

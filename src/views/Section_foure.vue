@@ -76,8 +76,8 @@
       </div>
       <!-- 6 -->
       <div class="div">
-        <img src="../../images/site6.png" alt="" />
-        <a href="https://firdavs-uz.netlify.app/">
+        <img src="../../images/site6.jpg" alt="" />
+        <a href="https://firdavs-571.netlify.app/">
           <button
             type="button"
             class="btn btn-light p-3 my-3 mx-3"

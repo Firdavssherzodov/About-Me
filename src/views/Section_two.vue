@@ -12,7 +12,7 @@
     >
       My Experience
     </h1>
-    <div class="Section row">
+    <div class="Section row" data-aos="fade-up-right">
       <div class="div1 col-6">
         <h6
           class="text-center py-5 fw-bold"

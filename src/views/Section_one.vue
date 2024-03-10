@@ -38,7 +38,11 @@
         </div>
         <p
           class="p1 p-4 fw-bold"
-          style="color: #8c8989; font-family: Poppins, sans-serif"
+          style="
+            color: #8c8989;
+            font-family: Poppins, sans-serif;
+            padding-left: 2.5rem !important;
+          "
         >
           I'm Firdavs Sherzadov, I'm 18 years old, majoring in information
           technology I came to the IT field and I managed to learn web

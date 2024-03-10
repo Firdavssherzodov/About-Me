@@ -8,7 +8,7 @@
       <a href=""><i class="fa-brands fa-youtube fs-5 p-4" style="color: #ffffff"></i></a> 
       </div>
       <div class="conterner m-auto"></div>
-      <p class="py-1">Scroll Down</p>
+      <p class="py-1 ">Scroll Down</p>
     </div>
     <div class="information">
       
