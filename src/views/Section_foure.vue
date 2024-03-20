@@ -44,6 +44,7 @@
       <!-- 3 -->
       <div class="div">
         <img src="../../images/site3.png" alt="" />
+        <a href="https://samvettex-uz.netlify.app/">
         <button
           type="button"
           class="btn btn-light p-3 my-3 mx-3"
@@ -51,6 +52,7 @@
         >
           View
         </button>
+      </a>
       </div>
       <!-- 4 -->
       <div class="div">
